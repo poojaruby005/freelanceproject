@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>left Arrow Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Single-Influencer" transform="translate(-201.000000, -1940.000000)">
+            <g id="Content" transform="translate(180.000000, 706.000000)">
+                <g id="Gallery" transform="translate(0.000000, 1150.000000)">
+                    <g id="Arrow-top" transform="translate(1.000000, 64.000000)">
+                        <g id="left-Arrow-Copy-3" transform="translate(42.500000, 42.500000) rotate(180.000000) translate(-42.500000, -42.500000) translate(21.000000, 21.000000)">
+                            <polyline id="Stroke-1" stroke="#222222" points="25 17 30 22 25 27"></polyline>
+                            <path d="M13,22 L30,22" id="Stroke-2" stroke="#222222"></path>
+                            <path d="M43,21.5 C43,33.3744889 33.3740486,43 21.5002836,43 C9.62595138,43 0,33.3744889 0,21.5 C0,9.62551115 9.62595138,0 21.5002836,0 C33.3740486,0 43,9.62551115 43,21.5 Z" id="Stroke-3" stroke="#CCCCCC"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

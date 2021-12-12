@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Play_Desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 40.0001017 0 80 80 80 80 40.0001017 80 0.000203389831 0 0.000203389831"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Multi-Influencer" transform="translate(-430.000000, -1159.000000)">
+            <g id="Content" transform="translate(179.000000, 706.000000)">
+                <g id="Video-1" transform="translate(1.000000, 264.000000)">
+                    <g id="Play_Desktop" transform="translate(250.000000, 189.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M80,40.0002034 C80,62.0917288 62.0915254,80.0002034 40,80.0002034 C17.9084746,80.0002034 0,62.0917288 0,40.0002034 C0,17.908678 17.9084746,0.000203389831 40,0.000203389831 C62.0915254,0.000203389831 80,17.908678 80,40.0002034" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                        </g>
+                        <path d="M27.9988475,56.9976949 L27.9988475,23.0017627 C27.9988475,22.2193898 28.8544407,21.7373559 29.5235932,22.1434576 L57.5663051,39.1407458 C58.2110508,39.5319322 58.2110508,40.4675254 57.5663051,40.8587119 L29.5235932,57.856678 C28.8544407,58.2621017 27.9988475,57.7800678 27.9988475,56.9976949" id="Fill-4" fill="#231F20"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
