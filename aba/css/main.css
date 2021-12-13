@@ -114,7 +114,8 @@ label{
 .btn-area{
     width: 100%;
     float: left;
-    padding-top: 32px;
+    text-align: center;
+    padding-top: 48px;
 }
 .btn-primary {
     padding: 16px 24px;
@@ -230,27 +231,9 @@ body>section {
     line-height: 24px;
     font-weight: normal;
     max-width: 860px;
-    margin-bottom: 64px;
+    margin-bottom: 50px;
     max-width: 550px;
 }
-
-#services .lead {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: normal;
-    margin-bottom: 48px;
-    max-width: 796px;
-}
-
-#testimonial .lead {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: normal;
-    max-width: 860px;
-    margin-bottom: 32px;
-    max-width: 550px;
-}
-
 .containerfullwith{
   width: 100%;
   float: left;
@@ -258,22 +241,16 @@ body>section {
 .aba-box{
    width: 100%;
     float: left;
-    padding: 64px 0 0;
+    padding: 44px 0 0;
 }
 .bg-vision{
     background-color: #eefef0;
     padding-left: 30px;
 }
-.vision-box{
+.vision-box,.mission-box{
     width: 100%;
     float: left;
     padding: 32px 15px 30px;
-     min-height: 250px;
-}
-.mission-box{
-    width: 100%;
-    float: left;
-    padding: 32px 48px 30px;
      min-height: 250px;
 }
 
@@ -879,32 +856,22 @@ input.search-form:hover {
     font-size: 32px;
     margin-bottom: 25px;
     color: #2975BB;
-    max-width: 714px;
+    max-width: 550px;
 }
 #leadership.services-desc p{
  padding: 0 !important;
- max-width: 714;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-#leadership .train p{
- max-width: 796;
-    font-size: 16px;
-    line-height: 24px;
+ max-width: 650px;
 }
 
 #leadership .desc-ser h1{
     font-size: 20px;
     line-height: 24px;
-    padding: 32px 0 16px;
+    padding: 32px 0 8px;
     color: #191919;
     margin: 0;
 }
 #leadership .desc-ser p{
-    font-size: 16px;
-    line-height: 24px;
-    max-width: 796px;
+   max-width: 468px;
 }
 .mb64{
     margin-bottom: 64px;
@@ -920,10 +887,6 @@ input.search-form:hover {
 .left-btn{
     text-align: left;
     padding: 20px 0 0;
-}
-.left-btn2{
-    padding: 38px 0 0;
-    text-align:center;
 }
 #middle {
     background-size: cover;
@@ -1338,7 +1301,6 @@ a.accordion-toggle i {
 }
 
 .testimonial-slider .single-slide{
-    
    padding: 0 30px 0 0;
     color: #191919;
     font-size: 16px;
@@ -1357,7 +1319,7 @@ a.accordion-toggle i {
 }
 .ptb10{
     padding-left: 0;
-    padding-top: 0px;
+    padding-top: 10px;
 }
 .content{
     padding: 0 10px;
@@ -1421,7 +1383,7 @@ a.accordion-toggle i {
   background: linear-gradient(
 90deg
 , #e3f7fe 70%, #fff 30%);
-  padding: 64px 10px 64px;
+  padding: 15px 10px 45px;
 }
 
 .about-content{
@@ -1435,9 +1397,9 @@ a.accordion-toggle i {
     font-weight: 700;
 }
 .about-content p{
-    max-width: 632px;
-    font-size: 16px;
-    line-height: 24px;
+    max-width: 550px;
+    font-size: 24px;
+    line-height: 32px;
 }
 .about-img{
    width: 100%;
@@ -2734,14 +2696,13 @@ shortcodes page css
     margin-bottom: 48px;
 }
 .pb20{
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 .mb8{
     margin-bottom: 8px;
 }
 .full-img{
     width: 100%;
-    margin-top:84px;
 }
 .navbar-toggle {
     background-color: #191919;
@@ -2755,12 +2716,11 @@ ul.tickmark-list {
 .tickmark-list li {
   position: relative;
   padding-left: 1.5em;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
   text-align: left;
-    font-size: 16px;
 }
 ul.tickmark-list li:before {
-  content:'✓';
+  content: '✓';
     color: #2875bb;
     position: absolute;
     left: 0;
@@ -2935,29 +2895,12 @@ font-weight: 600;
 
 .hometitle{
   font-size: 24px;
-    font-weight: normal;
     line-height: 32px;
-    max-width: 878px;  
+    max-width: 796px;  
 }
-.serv-dic h2{
-    max-width: 608px;
+.serv-dic h2,.serv-dic p{
+    max-width: 550px;
     padding-left: 32px;
-}
-.serv-dic p{
-    max-width: 608px;
-    padding-left: 32px;
-    padding-bottom: 24px;
-}
-#leadership.serv-dic. p{
-    max-width: 796px;
-    padding-bottom: 24px;
-}
-#rules.services-desc p{
-    max-width: 796px;
-    padding-bottom: 24px;
-}
-#rules.services-desc{
-    padding-top: 48px;
 }
 .gradi-container{
     background: linear-gradient(to left, #e3f7ff 50%, #eefef0 50%);
@@ -2979,7 +2922,6 @@ body>section {
     #about-us {
     width: 100%;
     background: #e3f7fe;
-    padding-top: 24px;
     padding-bottom: 48px;
 }
 #leadership h4, #leadership span {
@@ -2996,11 +2938,6 @@ body>section {
     width: 100%;
     float: left;
 }
-.full-img{
-    width: 100%;
-    margin-top:16px;
-}   
-    
 .about-content {
     padding: 0 0 20px 0;
 }
@@ -3036,7 +2973,7 @@ body>section {
 .title{
     font-size: 24px;
     margin-bottom: 16px;
-    margin-top: 24px;
+    margin-top: 25px;
 }
 .vision-desc h1 {
      font-size: 24px;
@@ -3052,15 +2989,8 @@ body>section {
 }
 .btn-area {
     padding-top: 16px;
-    padding-bottom: 32px;
+    padding-bottom: 18px;
 }
-
-.btn-area2 {
-    padding-top: 16px;
-    padding-bottom: 32px;
-    text-align: center;
-}
-
 .testimonial-slider .owl-dots {
     margin: 24px 0 0;
     text-align: center;
@@ -3103,7 +3033,7 @@ body>section {
 }
 }
 
-#leadership .about-note{
+.about-note{
     width: 100%;
     float: left;
     font-size: 24px;

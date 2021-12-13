@@ -5201,3 +5201,15 @@ position: absolute;
    width: 100%;
   }
  }
+.modal-dialog {
+    max-width: 631px;
+    margin: 30px auto;
+}
+.modal-content {
+    background-color: #EFEFEF;
+    border-radius: 12px;
+  
+}
+.no-border{
+    border: none !important;
+}
