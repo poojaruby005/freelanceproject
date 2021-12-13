@@ -129,24 +129,26 @@
     <div class="container py-lg-3">
       <div class="top-map">
         <div class="map-content-9">
-          <form action="https://sendmail.heroayouts.com/submitForm" method="post">
+          <form  action="mail-success.php" method="post" id="sky-form" class="contact-form" data-toggle="validator">
             <div class="form-top1">
               <h3 class="title-big text-center mb-2">Let’s talk about your project</h3>
               <p class="mb-lg-5 mb-4 text-center">We have made it easy for clients to reach us and get their solutions
                 weaved</p>
               <div class="form-top">
                 <div class="form-top-left">
-                  <input type="text" name="heroName" id="heroName" placeholder="Name" required="">
-                  <input type="number" name="heroPhone" placeholder="Your phone number" required="">
-                  <input type="email" name="heroSender" id="heroSender" placeholder="Email*" required="">
-                  <input type="text" name="heroSubject" id="heroName" placeholder="Subject" required="">
+                  <input type="text" id="name" name="name" placeholder="Name" required data-error="Please enter your name"/>
+
+                  <input type="email" id="email" name="email" placeholder="Email" required data-error="Please enter your email"/>
+
+                  <input type="text" name="phone" placeholder="Phone" id="phone" pattern="[7-9]{1}[0-9]{9}"  required="" data-error="Phone number with 7-9 and remaing 9 digit with 0-9" />
+                  <input type="text" name="subject" id="subject" placeholder="Subject" required=""required data-error="Enter Subject"/>
                 </div>
                 <div class="form-top-righ">
-                  <textarea name="heroMessage" id="heroMessage" placeholder="Message*" required=""></textarea>
+                  <textarea name="message" id="message" placeholder="Your message here..." required="" data-error="Write your message"></textarea>
                 </div>
               </div>
               <div class="text-lg-right text-center">
-                <button type="submit" class="btn btn-style btn-primary">Submit Now</button>
+                <button type="submit"  id="submit" class="btn btn-style btn-primary">Submit Now</button>
               </div>
             </div>
           </form>
@@ -212,7 +214,45 @@
   </footer>
   <!-- //footer -->
   
-  
+  <!-- Modal -->
+        <!-- <div class="modal fade" id="thankModalCenter" tabindex="-1" role="dialog" aria-labelledby="ThankModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header no-border">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><img src="images/Close-black.svg" /></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="thanku-title">
+                                    <img src="images/Guarantee-black.svg" alt=""/>
+                                    <h1>Your Mail Has Sent Successfully!</h1>
+                                    <h3>Thank you for your interest</h3>
+                                    <p>ABA advisor will be in touch shortly to discuss your Service service requirement options. </p>
+                                    <label>Invite your friends to discover ABA Consultants</label>
+                                    <ul class="social-share">
+                                        <li>
+                                            <a href="https://www.facebook.com/abaconsultants36" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/abaconsultants.in/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/company/abaconsultants" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCbGlfm0Lzenjg2KgQASrzGg" target="_blank"><i class="fa fa-play"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
   <!-- Template JavaScript -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/theme-change.js"></script>
