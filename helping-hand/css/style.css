@@ -80,7 +80,7 @@ padding:0;
 	width:50%;
 }
 .logo a h1{
-	color:#06667d;
+	color:#812c56;
 	 font-family: 'Dosis-Bold';
 font-size:3em;	
 	display:inline-block;
@@ -225,7 +225,7 @@ font-size:3em;
 	text-decoration:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	color:#06667d;
+	color:#812c56;
 }
 span.menu{
 	display: none;
@@ -236,14 +236,14 @@ span.menu{
 }
 /*--banner--*/
 .banner{
-	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:100vh;
 	padding-top:20em;
 	text-align:center;
 }
 .page-banner{
-  background: url(../images/bnr1.jpg) no-repeat 0px 0px;
+  background: url(../images/bnr3.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 50vh;
     text-align: center;
@@ -330,7 +330,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-align:center;
 }
 .welcome-top h3,.mission h3{
-  color: #96b200;
+  color: #44626d;
     font-size: 2.5em;
     margin: 0;
     font-family: 'Dosis-Regular';
@@ -378,7 +378,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   width: 102%;
   height: 102%;
   border-radius: 50%;
-  background: #06667d;
+  background: #44626d;
   position: absolute;
   top: -1px;
   left: -1px;
@@ -457,7 +457,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .join {   
     padding: 2.5em 0;
-    background: #06667d;
+    background: #44626d;
     text-align: center;
 }
 .join h3 {
@@ -476,7 +476,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-weight: 300;
     color: #fff;
     padding: 0.5em 1.8em;
-    background: #06667d;
+    background: transparent;
     border: 2px solid #fff;
     display: inline-block;
     text-decoration: none;
@@ -493,7 +493,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-left:0;
 }
 .bottom-left-grid h3,.bottom-right-grid h3{
-	color: #96b200;
+	color: #44626d;
     font-size: 2.3em;
     font-family: 'Dosis-Regular';
     font-weight: 600;
@@ -519,7 +519,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	display:block;
 	margin-top:1em;
 	text-decoration:none;
-	color: #06667d;
+	color: #812c56;
 }
 .project a:hover{
 	color:#333;
@@ -705,7 +705,7 @@ background-position:-167px -36px;
 .copywrite{
 	padding: 1em 0;
     text-align: center;
-	background:#06667d;
+	background:#812c56;
 }
 .copywrite p {
     color: #fff;
@@ -720,7 +720,7 @@ background-position:-167px -36px;
 	padding:5em 0;
 }
 .about h2,h2.top,.gallery h2,h3.hdng{
-	color: #bad046;
+	color: #44626d;
     font-size: 3em;
     font-family: 'Dosis-Medium';
     text-align: center;
@@ -736,7 +736,7 @@ background-position:-167px -36px;
     font-family: 'Dosis-Regular';
 }
 .about-info h5 {
-    color: #bad046;
+    color: #44626d;
     margin: 0.5em 0;
     font-size: 1.1em;
     line-height: 1.5em;
@@ -1074,7 +1074,7 @@ h2.typoh2{
 .contact-grids-info {
     margin-top: 3em;
 }
-.contact-right input[type="text"] {
+.contact-right input[type="text"],.contact-right input[type="email"] {
     border: 1px solid #EAEAEA;
     width: 32.9%;
     margin: 0 0 1em 0;
@@ -1096,15 +1096,15 @@ h2.typoh2{
     -webkit-appearance: none;
 }
 .contact-right input[type="submit"] {
-    border: 1px solid #bad046;
+    border: 1px solid #44626d;
     padding: .5em 0;
-    width: 22%;
+    width: 25%;
     margin-top: 0.8em;
     font-size: 1.1em;
     color: #FFFFFF;
     letter-spacing: 1px;
     outline: none;
-    background-color: #bad046;
+    background-color: #44626d;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -1117,8 +1117,8 @@ input[type="text"]:hover, .contact-right textarea:hover  {
 }
 .contact-right input[type="submit"]:hover {
     background-color: #fff;
-    color: #bad046;
-    border: 1px dotted #bad046;
+    color: #44626d;
+    border: 1px dotted #44626d;
 }
 .glyphicon3 {
     position: relative;
@@ -1724,7 +1724,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   text-align: center;
 }
 .footer h3{
-  color: #06667d;
+  color: #812c56;
     font-family: 'Dosis-Bold';
     font-size: 3em;
     display: inline-block;
@@ -1749,7 +1749,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     text-decoration: none;
 }
 .footer-menu li a:hover {
-    color: #06667d;
+    color: #812c56;
 }
 .copy-write{
   color: #999;
@@ -1786,5 +1786,5 @@ ul.callbacks_tabs.callbacks1_tabs {
   background: #191919;
 }
 .social-icon li a:hover {
-    color: #06667d;
+    color: #812c56;
 }
