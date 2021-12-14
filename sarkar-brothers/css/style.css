@@ -191,7 +191,7 @@ width: 100%;
 }
 nav.navbar.navbar-default {
    background: #3a3532e0;
-    padding: 2em;
+    padding: 1em;
     z-index: 9;
 }
 .navbar-header{
@@ -660,7 +660,7 @@ nav.navbar.navbar-default {
 	    color: #cbcbcb;
     line-height: 24px;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 .hero_agile_about_grid_right p span{
 	font-size: 1em;
@@ -2440,7 +2440,7 @@ h2.typoh2{
 	text-decoration:none;
 }
 .hero_mail_grid_right ul.agileinfo_phone_mail li a:hover{
-	color:#212121;
+	color:#c1c1c1;
 }
 .hero_mail_grid_right ul.agileinfo_phone_mail li i{
 	padding-right: 1.5em;

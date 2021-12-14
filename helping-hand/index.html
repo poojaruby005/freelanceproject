@@ -16,6 +16,23 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
+<!--spinner-->
+        <div id="overlay">
+            <div class="loaderCenter">
+                <div class="loaderCon">
+                    <div class="col-full">
+                        <div class="loaderimag">
+                            <h3>Helping Hand</h3>
+                            <div id="loadertxt">Loading...</div>
+                        </div>
+
+                        <div id="progress"></div>
+                        <div id="progstat"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--spinner ends-->
 <!---->
 <div class="header">
 	 <div class="container">
@@ -65,16 +82,16 @@
 				 <div class="callbacks_container">
 				     <ul class="rslides" id="slider">
 						 <li>	          
-							 <h2>Give a Helping Hand</h2>
-							 <h3>Maecenas dignissim nibh.</h3>
+							 <h2 data-trans="0">Give a Helping Hand</h2>
+							 <h3 data-trans="1">Maecenas dignissim nibh.</h3>
 						 </li>
 						 <li>	          
-							 <h2>Help a Child Without Family</h2>
-							 <h3>Fusce vel lacus dapibus.</h3>
+							 <h2 data-trans="2">Help a Child Without Family</h2>
+							 <h3 data-trans="3">Fusce vel lacus dapibus.</h3>
 						 </li>
 						 <li>	          
-							 <h2>Don't Leave Orphans Alone</h2>		
-							 <h3>Aenean maximus in sem.</h3>
+							 <h2 data-trans="4">Don't Leave Orphans Alone</h2>		
+							 <h3 data-trans="5">Aenean maximus in sem.</h3>
 						 </li>
 					  </ul>
 				 </div>
@@ -87,9 +104,9 @@
 <div class="welcome">
 	 <div class="container">
 		 <div class="welcome-top">
-			 <h3>Welcome To Our Charity</h3>
-			 <h4>Our Charity Has Over 100 Donors</h4>
-			 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+			 <h3 data-trans="7">Welcome To Our Charity</h3>
+			 <h4 data-trans="8">Our Charity Has Over 100 Donors</h4>
+			 <p data-trans="9">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
 				corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 		 </div>
 		  <div class="charitys">
@@ -98,8 +115,8 @@
 						<figure class="icon">
 							 <span class="glyphicon-icon glyphicon-heart" aria-hidden="true"></span>
 						</figure>
-						<h3>Child Protection</h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3 data-trans="10">Child Protection</h3>
+						<p data-trans="11">Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
 				  </div>
 			  </div>
 			  <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -107,8 +124,8 @@
 						<figure class="icon">
 							<span class="glyphicon-icon glyphicon-asterisk" aria-hidden="true"></span>
 						</figure>						
-						<h3>Adoption Child </h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3 data-trans="12">Adoption Child </h3>
+						<p data-trans="13">Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
 				  </div>
 			  </div>
 			  <div class="col-md-4 chrt_grid" style="visibility: visible; -webkit-animation-delay: 0.4s;">
@@ -116,8 +133,8 @@
 						 <figure class="icon">
 							<span class="glyphicon-icon glyphicon-flag" aria-hidden="true"></span>
 						</figure>						
-						<h3>Charity actions</h3>
-						<p>Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
+						<h3 data-trans="14">Charity actions</h3>
+						<p data-trans="15">Curabitur convallis rutrum erat nec vestibulum. Sed iaculis hendrerit lectus sit amet lobortis vulputate magna finibus molestie tellus.</p>
 				  </div>
 			  </div>
 			  <div class="clearfix"></div>
@@ -127,12 +144,12 @@
 <!---->
 <div class="mission">
 	 <div class="container">
-		 <h3>Our Services</h3>
+		 <h3 data-trans="17">Our Services</h3>
 		 <div class="mission-sec">
 			 <div class="blog-grids">
 				 <div class="col-md-6 blog1 text_grid">
-					 <h4><a href="about.html">Helping orphans children’s and old age</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html" data-trans="18">Helping orphans children’s and old age</a></h4>
+					 <p data-trans="19">Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
 				 </div>
 				 <div class="col-md-6 blog-pic">
 					  <img src="images/m2.jpg" class="img-responsive" alt="">
@@ -144,15 +161,15 @@
 					  <img src="images/m1.jpg" class="img-responsive" alt="">
 				 </div>
 				 <div class="col-md-6 blog1">
-					 <h4><a href="about.html">Distributing food, clothes, groceries to the people in need.</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html" data-trans="20">Distributing food, clothes, groceries to the people in need.</a></h4>
+					 <p data-trans="21">Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
 				 </div>			 
 				 <div class="clearfix"></div>
 			 </div>
 			 <div class="blog-grids">
 				 <div class="col-md-6 blog1 text_grid">
-					 <h4><a href="about.html"> Help poor facilitate education, marriage</a></h4>
-					 <p>Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
+					 <h4><a href="about.html" data-trans="22"> Help poor facilitate education, marriage</a></h4>
+					 <p data-trans="23">Cras nec neque sed magna bibendum volutpat. Duis bibendum turpis vehicula purus feugiat eleifend Fusce hendrerit elit vitae massa tincidunt accumsanEtiam blandit elit laoreet, malesuada massa quis.</p>
 				 </div>
 				 <div class="col-md-6 blog-pic">
 					  <img src="images/m3.jpg" class="img-responsive" alt="">
@@ -191,4 +208,6 @@
 </div>
 <!---->
 </body>
+<script type="text/javascript" src="js/loder.js"></script>
+<script type="text/javascript" src="js/trans-file-index.js"></script>
 </html>
