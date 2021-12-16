@@ -12,7 +12,7 @@
     <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
     
     <!-- Template CSS -->
-    <link rel="stylesheet" href="css/style-starter.css">
+    <link rel="stylesheet" href="css/base.css">
     
   </head>
   <body>
@@ -61,8 +61,8 @@
 <section class="hero-about-breadcrumb text-center">
     <div class="breadcrumb-bg breadcrumb-bg-about py-5">
         <div class="container py-lg-5 py-md-4">
-            <h2 class="title pt-md-5 pt-4">Contact Us</h2>
-            <p class="inner-page-para mt-2">We are an agency located in New York</p>
+            <h2 class="title pt-md-5 pt-4" data-trans="0">Contact Us</h2>
+            <p class="inner-page-para mt-2" data-trans="1">We are an agency located in New York</p>
         </div>
         <div class="hero-overlay"></div>
     </div>
@@ -72,8 +72,8 @@
 <section class="hero-contact-main py-5" id="contact">
     <div class="container pt-lg-5 pt-md-3">
         <div class="title-content text-center mb-md-5 mb-4">
-            <h3 class="title-big mx-lg-5">We are a full-service creative agency</h3>
-            <p class="text-para mt-2">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+            <h3 class="title-big mx-lg-5" data-trans="2">We are a full-service creative agency</h3>
+            <p class="text-para mt-2" data-trans="4">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
                 lacinia est. Quisque ut lectus consequat, eros et. </p>
         </div>
         <div class="hero-contact-info">
@@ -82,8 +82,8 @@
                     <div class="single-contact-infos">
                         <div class="icon-box"> <span class="fa fa-map-o"></span></div>
                         <div class="text-box">
-                            <h3 class="mb-2">Our Location</h3>
-                            <p>Corp Vision, 343 marketing, #21 cravel 1st street, NY - 62617.</p>
+                            <h3 class="mb-2" data-trans="5">Our Location</h3>
+                            <p data-trans="6">Corp Vision, 343 marketing, #21 cravel 1st street, NY - 62617.</p>
                         </div>
                     </div>
                 </div>
@@ -91,9 +91,9 @@
                     <div class="single-contact-infos">
                         <div class="icon-box"> <span class="fa fa-mobile"></span></div>
                         <div class="text-box">
-                            <h3 class="mb-2">Give us a call</h3>
-                            <p><a href="tel:+12 404-11-22-89">+12 404-11-22-89</a></p>
-                            <p><a href="tel:+12 404-11-22-99">+12 404-11-22-99</a></p>
+                            <h3 class="mb-2" data-trans="7">Give us a call</h3>
+                            <p><a href="tel:+12 404-11-22-89" data-tel="8" data-trans="8">+12 404-11-22-89</a></p>
+                            <p><a href="tel:+12 404-11-22-99" data-tel="9" data-trans="9">+12 404-11-22-99</a></p>
                         </div>
                     </div>
                 </div>
@@ -101,9 +101,9 @@
                     <div class="single-contact-infos">
                         <div class="icon-box"> <span class="fa fa-envelope-o"></span></div>
                         <div class="text-box">
-                            <h3 class="mb-2">Help Desk</h3>
-                            <p> <a href="mailto:company@gmail.com">company@gmail.com</a></p>
-                            <p> <a href="mailto:support@gmail.com">support@gmail.com</a></p>
+                            <h3 class="mb-2" data-trans="10">Help Desk</h3>
+                            <p> <a href="mailto:company@gmail.com" data-mail="11" data-trans="11">company@gmail.com</a></p>
+                            <p> <a href="mailto:support@gmail.com" data-mail="12" data-trans="12">support@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -131,8 +131,8 @@
         <div class="map-content-9">
           <form  action="mail-success.php" method="post" id="sky-form" class="contact-form" data-toggle="validator">
             <div class="form-top1">
-              <h3 class="title-big text-center mb-2">Let’s talk about your project</h3>
-              <p class="mb-lg-5 mb-4 text-center">We have made it easy for clients to reach us and get their solutions
+              <h3 class="title-big text-center mb-2" data-trans="14">Let’s talk about your project</h3>
+              <p class="mb-lg-5 mb-4 text-center" data-trans="15">We have made it easy for clients to reach us and get their solutions
                 weaved</p>
               <div class="form-top">
                 <div class="form-top-left">
@@ -260,6 +260,8 @@
   <!-- libhtbox -->
   <script src="js/lightbox-plus-jquery.min.js"></script>
   <!-- libhtbox -->
+
+  <script type="text/javascript" src="js/trans-file-contact.js"></script>
   
   <!-- banner slick slider -->
   <script src="js/slick.js"></script>

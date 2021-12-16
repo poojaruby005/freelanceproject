@@ -1,3 +1,90 @@
+
+
+/**** loader ****/
+
+#overlay {
+ position: fixed;
+ z-index: 99999;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background: #38595c;
+ transition: 1s 0.4s;
+}
+
+.loaderCenter {
+ width: 100%;
+ max-width: 320px;
+ margin: 0 auto;
+}
+
+.loaderCon {
+ width: 100%;
+ float: left;
+ padding: 0 15px;
+ position: relative;
+ height: 100vh;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ -ms-flex-align: center;
+ -webkit-align-items: center;
+ -webkit-box-align: center;
+ align-items: center;
+ justify-content: center;
+}
+.loaderimag h3{
+ color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 3em;
+    display: inline-block;
+}
+.loaderimag h3 span {
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.loaderimag {
+ width: 100%;
+ float: left;
+ padding-bottom: 0;
+ text-align: center;
+}
+
+.loaderimag img {
+ width: 50%;
+}
+
+#loadertxt {
+ width: 100%;
+ float: left;
+ text-align: center;
+ color: #fff;
+ padding: 10px 0;
+ font-size: 13px;
+}
+
+#progress {
+ height: 1px;
+ background: #fff;
+ position: relative;
+ width: 0;
+ float: left;
+ transition: 1s;
+}
+
+#progstat {
+ font-size: 0.7em;
+ letter-spacing: 3px;
+ position: relative;
+ float: left;
+ margin-top: 10px;
+ width: 100%;
+ text-align: center;
+ color: #fff;
+}
+
+
 @charset "UTF-8";
 :root {
   --blue: #007bff;
@@ -14448,12 +14535,19 @@ span.video-play-icon {
 .title-content {
   max-width: 800px;
   margin: auto; }
-
+.title-content h4{
+  padding: 10px 0;
+}
 .hero-content-4 {
   background: var(--bg-grey); }
 
 .hero-content-4 .content-info-in h6 {
-  margin: 0px 0 12px 0; }
+  margin: 0px 0 12px 0; 
+  text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
 
 .hero-content-4 .content-info-in h6 a {
   text-align: left;
