@@ -1360,7 +1360,6 @@ ul.agileinfo_social_icons li a.instagram:hover span{
     color: #fff;
     text-align: center;
     text-transform: capitalize;
-    background:#e60004;
     border-bottom: none;
     letter-spacing: 10px;
     font-family: 'Prompt', sans-serif;
@@ -1394,9 +1393,9 @@ ul.agileinfo_social_icons li a.instagram:hover span{
     border-radius: 0;
 }
 button.close {
-    font-size: 1.2em;
-    color: #6d0507;
-    outline: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: #c8c8c8;
 }
 .modal-dialog {
     width: 845px;
@@ -1672,10 +1671,10 @@ animations
 	color:#999;
 	text-decoration:none;
 }
-.hero_events_grid ul li a i{
+/*.hero_events_grid ul li a i{
 	padding-right:1em;
 	color:#e60004;
-}
+}*/
 .hero_events_grid ul li a:hover i{
 	color:#999;
 }
@@ -3976,6 +3975,7 @@ ul.agileinfo_phone_mail{
     letter-spacing: normal;
     margin-bottom: 0;
     font-size: 18px;
+    padding: 0;
 }
 
 .content-details p{
@@ -5206,10 +5206,76 @@ position: absolute;
     margin: 30px auto;
 }
 .modal-content {
-    background-color: #EFEFEF;
+    background-color: #000;
     border-radius: 12px;
   
 }
 .no-border{
     border: none !important;
+}
+.social-share {
+    list-style: none;
+}
+.thanku-title{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 16px 50px 50px;
+    text-align: center;
+}
+.thanku-title img{
+    padding-bottom: 16px;
+}
+.thanku-title h1{
+font-size: 32px;
+    line-height: 40px;
+    padding: 20px 0;
+    color: #fff;
+}
+.thanku-title h3{
+font-size: 32px;
+line-height: 40px;
+color: #c8c8c8;
+padding-bottom: 16px;
+font-weight: 600;
+}
+.thanku-title p {
+  padding-bottom: 70px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-flex;
+}
+.thanku-title label{
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.thanku-title .social-share{
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-flex;
+}
+
+.thanku-title .social-share li a {
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 0 30px 0 0;
+    color: #cbcbcb;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.thanku-title .social-share li a:hover {
+    color: #fff;
+}
+
+.thanku-title .social-share li a i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #232323;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0px 3px 31px rgb(97 95 95);
 }

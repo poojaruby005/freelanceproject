@@ -1,7 +1,7 @@
 <?php
 if( isset($_POST['name']) )
 {
-  $to = 'poojaruby005@gmail.com'; // Replace with your email
+  $to = 'spnsarkar103@gmail.com'; // Replace with your email
   
   $subject = $_POST['subject'];
 

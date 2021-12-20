@@ -10,6 +10,11 @@ $.getJSON(url, function(data) {
     for (var i = 0; i < json.length; i++) {
         $('[data-trans="' + i + '"]').html(json[i][MarketCode]);
 
+        $('[data-href="11"]').attr("href", json[11].WE);
+        $('[data-href="12"]').attr("href", json[12].WE);
+        // $('[data-href="13"]').attr("href", json[13].WE);
+        $('[data-href="14"]').attr("href", json[14].WE);
+
         var telNo = json[4].WE;
         $('[data-tel="4"]').attr("href", "tel:" + telNo);
 
