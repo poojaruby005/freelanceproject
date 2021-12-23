@@ -11,11 +11,16 @@ $.getJSON(url, function(data) {
     for (var i = 0; i < json.length; i++) {
         $('[data-trans="' + i + '"]').html(json[i][MarketCode]);
 
-        var telNo = json[3].WE;
-        $('[data-tel="3"]').attr("href", "tel:" + telNo);
+        $('[data-href="10"]').attr("href", json[10].WE);
+        $('[data-href="11"]').attr("href", json[11].WE);
+        // $('[data-href="13"]').attr("href", json[13].WE);
+        $('[data-href="12"]').attr("href", json[12].WE);
 
-        var mailto = json[4].WE;
-        $('[data-mail="4"]').attr("href", "mailto:" + mailto);
+        var telNo = json[4].WE;
+        $('[data-tel="4"]').attr("href", "tel:" + telNo);
+
+        var mailto = json[5].WE;
+        $('[data-mail="5"]').attr("href", "mailto:" + mailto);
     }
     
     setTimeout(function () {
