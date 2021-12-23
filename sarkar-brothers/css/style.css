@@ -3876,6 +3876,7 @@ ul.agileinfo_phone_mail{
 .sigma_service p {
     margin: 0;
     transition: .3s;
+    text-align: justify;
 }
 .sigma_service.style-14 .number.secondary-hue {
         background-color: #232323;
