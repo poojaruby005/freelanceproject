@@ -20,7 +20,7 @@
                 <div class="loaderCon">
                     <div class="col-full">
                         <div class="loaderimag">
-                            <h3>Beena IT</h3>
+                            <img src="images/white-logo.svg">
                             <div id="loadertxt">Loading...</div>
                         </div>
 
@@ -36,7 +36,12 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark stroke">
                     <h1>
-                        <a class="navbar-brand" href="index.html">Beena IT</a>
+                        <a class="navbar-brand white-logo" href="index.html">
+                            <img src="images/white-logo.svg">
+                        </a>
+                        <a class="navbar-brand logo"  href="index.html">
+                            <img src="images/logo.png">
+                        </a>
                     </h1>
                     <button class="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -440,43 +445,31 @@
             <div class="footer-29 py-5">
                 <div class="container py-md-4">
                     <div class="row footer-top-29">
-                        <div class="col-lg-4 col-md-6 footer-list-29 footer-1">
+                        <div class="col-lg-5 col-md-4 footer-list-29 footer-1">
                             <div class="footer-logo mb-4">
-                                <a class="navbar-brand" href="index.html">Beena IT
+                                <a class="navbar-brand" href="index.html"><img src="images/white-logo.svg">
                                 </a>
                             </div>
                             <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
                             <div class="main-social-footer-29 mt-md-4 mt-3">
-                                <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                                <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                                <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                                <a href=" https://youtube.com/channel/UCybmu-NS42RYXgbDDVv1szQ" class="twitter"><span class="fa fa-play"></span></a>
+                                <a href="https://www.instagram.com/beenait09/" class="linkedin"><span class="fa fa-instagram"></span></a>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 footer-list-29 footer-1 pr-lg-5 mt-md-0 mt-5">
+                        <div class="col-lg-5 col-md-5 footer-list-29 footer-1 pr-lg-5 mt-md-0 mt-5">
                             <h6 class="footer-title-29">Contact Info</h6>
-                            <p class="mb-2">Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
-                            <p class="mb-2">Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
-                            <p class="mb-2">Email : <a href="mailto:info@example.com">info@example.com</a></p>
+                            <p class="mb-2">Address : Shiv Shakti Nagar, Near Nayak Chowk, Devi Mandap Road Opposite Nalini Enclave Lane Ranchi, JH 834005.</p>
+                            <p class="mb-2">Phone Number : <a href="tel:8904278071">+91 890 427 8071</a></p>
+                            <p class="mb-2">Email : <a href="mailto:beenait09@gmail.com">beenait09@gmail.com</a></p>
                             <p>Support : <a href="mailto:info@support.com">info@support.com</a></p>
                         </div>
-
-                        <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-lg-0 mt-5">
-                            <ul>
-                                <h6 class="footer-title-29">Services</h6>
-                                <li><a href="#url">UI/UX Design</a></li>
-                                <li><a href="#url">Creative agency</a></li>
-                                <li><a href="#url">Positive thinking</a></li>
-                                <li><a href="#url">Marketing service</a></li>
-                                <li><a href="#url">Creative agency</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-lg-0 mt-5">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 footer-list-29 footer-2 mt-lg-0 mt-5">
                             <ul>
                                 <h6 class="footer-title-29">Company</h6>
                                 <li><a href="about.html"> About company</a></li>
                                 <li><a href="index.html#gallery">Our Gallery </a></li>
+                                <li><a href="services.html">Services</a></li>
                                 <li><a href="cloud.html">Cloud </a></li>
                                 <li><a href="contact.html">Get in touch</a></li>
                             </ul>
@@ -586,13 +579,18 @@
 
         <!--/MENU-JS-->
         <script>
+            $('.logo img').hide();
             $(window).on("scroll", function () {
                 var scroll = $(window).scrollTop();
 
                 if (scroll >= 80) {
                     $("#site-header").addClass("nav-fixed");
+                    $('.logo img').show();
+                    $('.white-logo img').hide();
                 } else {
                     $("#site-header").removeClass("nav-fixed");
+                    $('.white-logo img').show();
+                    $('.logo img').hide();
                 }
             });
 

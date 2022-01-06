@@ -1,15 +1,19 @@
 
-var SheetID = "1C34m6Qf7HZ8CC_zJjhZXFLEZsdrCovemydXwXVfNQyc";
+var SheetID = "17mqdbWfRlfaLFZ9GbBaIQ2QQC18UNj06modaYkx2ymI";
 var SheetName='Contact';
 var MarketCode = "WE";
 var ovrl = $("#overlay");
-var url = "https://script.google.com/macros/s/AKfycby_KmlIs24oaZ2CLKj7sUPvqXF2_7A8SgjpjIJKuCwjavdeTMmkNBdTtZhgU1I90EE5/exec?id="+SheetID+"&sheet="+SheetName;
+var url = "https://script.google.com/macros/s/AKfycbyAlcDS959cTH4cqKXO1bGwVwM0KyiUDkqb4FmfeCCu2F9GId_649q8Y_m2aVXNrQvA4Q/exec?id="+SheetID+"&sheet="+SheetName;
 console.log(MarketCode);
 $.getJSON(url, function(data) {
     var obj = Object.keys(data),
     json = data[obj];
     for (var i = 0; i < json.length; i++) {
         $('[data-trans="' + i + '"]').html(json[i][MarketCode]);
+
+        $('[data-href="21"]').attr("href", json[21].WE);
+        $('[data-href="22"]').attr("href", json[22].WE);
+        $('[data-href="23"]').attr("href", json[23].WE);
 
         var telNo = json[8].WE;
         $('[data-tel="8"]').attr("href", "tel:" + telNo);

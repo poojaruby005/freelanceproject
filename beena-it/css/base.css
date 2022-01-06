@@ -52,7 +52,7 @@
 }
 
 .loaderimag img {
- width: 50%;
+ width: 100%;
 }
 
 #loadertxt {
@@ -10021,7 +10021,7 @@ button.navbar-toggler.collapsed .icon-expand {
   opacity: .9; }
 
 .navbar .navbar-brand img {
-  max-width: 140px;
+  max-width: 200px;
   transition: all 0.5s ease; }
 
 .navbar-expand-lg .navbar-nav .nav-item {
@@ -14124,7 +14124,9 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
-
+.footer-logo .navbar-brand img{
+  height: 70px;
+}
 @media screen and (max-width: 320px) {
   .lb-data .lb-details {
     width: 89%;
@@ -15375,3 +15377,77 @@ h3.title-service {
     margin: 20px 0px 15px 0; } }
 
 /*# sourceMappingURL=style-starter.css.map */
+.modal-dialog {
+    max-width: 631px;
+    margin: 30px auto;
+}
+.modal-content {
+    background-color: #151421;
+    border-radius: 12px;
+  
+}
+.no-border{
+    border: none !important;
+}
+.social-share {
+    list-style: none;
+}
+.thanku-title{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 16px 50px 50px;
+    text-align: center;
+}
+.thanku-title img{
+    padding-bottom: 16px;
+}
+.thanku-title h1{
+font-size: 32px;
+    line-height: 40px;
+    padding: 20px 0;
+    color: #fff;
+}
+.thanku-title h3{
+font-size: 32px;
+line-height: 40px;
+color: #97a1a9;
+padding-bottom: 16px;
+font-weight: 600;
+}
+.thanku-title p {
+  padding-bottom: 70px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-flex;
+}
+.thanku-title label{
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.thanku-title .social-share{
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-flex;
+}
+
+.thanku-title .social-share li a {
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 10px;
+    color: #cbcbcb;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.thanku-title .social-share li a:hover {
+    color: #fff;
+}
+
+.thanku-title .social-share li a i {
+    width: 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
