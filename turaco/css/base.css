@@ -164,6 +164,12 @@ p {
   background-color: #213A71;
   color:#fff ;
 }
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
 .section-div {
  width: 100%;
  float: left;
@@ -206,28 +212,7 @@ p {
  .mob-show {
   display: block;
  }
- .show-more {
-  display: block;
-  text-decoration: underline;
-  font-size: 12px;
-  color: #000;
-  font-weight: 300;
- }
- .show-less {
-  display: none;
-  text-decoration: underline;
-  font-size: 12px;
-  color: #000;
-  font-weight: 300;
- }
- .mob-show-toggle {
-  display: none;
-  height: auto;
-  -webkit-transition: all 0s ease-in-out;
-  -moz-transition: all 0s ease-in-out;
-  -o-transition: all 0s ease-in-out;
-  transition: all 0s ease-in-out;
- }
+
 }
 
 /* ------------------------------------------------------------ *\
@@ -1012,18 +997,6 @@ span.count{
   padding: 15px 0;
   text-transform:uppercase;
 }
-
-/*pumps-section*/
-.pumps-section{
-   width: 100vw;
-    height: 400px;
-    float: left;
-    background: url(../images/Product-right-2.jpg);
-    background-size: contain;
-    background-position: right;
-    position: relative;
-    background-repeat: no-repeat;
-}
 .slider-div{
   width: 45%;
   float: left;
@@ -1056,6 +1029,16 @@ span.count{
   max-width: 100%;
   text-align: center;
 }
+.pumps-section{
+   width: 100vw;
+    height: 400px;
+    float: left;
+    background: url(../images/Product-right-2.jpg);
+    background-size: contain;
+    background-position: right;
+    position: relative;
+    background-repeat: no-repeat;
+}
 .pumps-content{
 width: 50%;
     float: left;
@@ -1075,7 +1058,7 @@ width: 50%;
 }
 @media all and (max-width:767px) {
 .pumps-section {
-  height: 280px;
+  height: auto;
    background: transparent;
 }
 .slider-div {
@@ -1099,6 +1082,101 @@ width: 50%;
 }
 }
 /* ------------------------------------------------------------ *\
+    Fans-section
+\* ------------------------------------------------------------ */
+.fans-section{
+   width: 100vw;
+    height: 400px;
+    float: left;
+    background: url(../images/CFans.jpg);
+    background-size: contain;
+    background-position: left;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.fans-content{
+width: 55%;
+    float: left;
+  padding: 7em 5em;
+}
+.fans-content h1{
+  text-align: right;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 20px;
+}
+.fans-content p{
+    font-size: 14px;
+    line-height: 18px;
+     padding-bottom: 25px;
+     text-align: right;
+}
+@media all and (max-width:767px) {
+.fans-section {
+  height: auto;
+   background: transparent;
+}
+
+.fans-content {
+    width: 100%;
+    float: left;
+    padding: 1em;
+    background: url(../images/CFans.jpg);
+    background-size: contain;
+    background-position: left;
+    position: relative;
+    background-repeat: no-repeat;
+}
+}
+/* ------------------------------------------------------------ *\
+    Cabels-section
+\* ------------------------------------------------------------ */
+.cables-section{
+   width: 100vw;
+    height: 400px;
+    float: left;
+    background: url(../images/Cables.jpg);
+    background-size: contain;
+    background-position: right;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.cables-content{
+width: 50%;
+    float: left;
+  padding: 7em 5em;
+}
+.cables-content h1{
+  text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 20px;
+}
+.cables-content p{
+    font-size: 14px;
+    line-height: 18px;
+     padding-bottom: 25px;
+}
+@media all and (max-width:767px) {
+.cables-section {
+  height: auto;
+   background: transparent;
+}
+
+.cables-content {
+    width: 100%;
+    float: left;
+    padding: 1em;
+    background: url(../images/Cables.jpg);
+    background-size: contain;
+    background-position: right;
+    position: relative;
+    background-repeat: no-repeat;
+}
+}
+/* ------------------------------------------------------------ *\
     Slick Slider
 \* ------------------------------------------------------------ */
 
@@ -1114,7 +1192,7 @@ width: 50%;
   max-width: 100%;
 }
 
-.pumps-section .slick-next::before {
+.slick-next::before{
   border: none;
   background: url(../images/right_arrow.svg);
   background-repeat: no-repeat;
@@ -1126,7 +1204,7 @@ width: 50%;
   top: 50%;
 }
 
-.pumps-section .slick-prev::before {
+.slick-prev::before{
   border: none;
   background: url(../images/right_arrow.svg);
   background-repeat: no-repeat;
@@ -1138,7 +1216,7 @@ width: 50%;
   top: 44%;
 }
 
-.pumps-section .slick-arrow {
+.slick-arrow{
   font-size: 0;
   text-indent: -4004px;
   position: absolute;
@@ -1160,16 +1238,16 @@ width: 50%;
   transform: rotate(180deg);
 }
 
-.pumps-section .slick-arrow:before {
+.slick-arrow:before{
   display: inline-block;
   content: '';
   position: absolute;
   left: 50%;
-  margin-top: -30px;
+  margin-top: -20px;
   margin-left: -67%;
 }
 
-.pumps-section .slick-prev:before {
+.slick-prev:before{
   margin-left: -67%;
 }
 .responsive span{
