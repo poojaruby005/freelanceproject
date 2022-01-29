@@ -1378,10 +1378,11 @@ width: 50%;
   .slick-list {
     padding: 0;
   }
-  .pumps-section .slick-prev:before {
+  .slick-prev:before {
     margin-left: -32%;
 }
-.pumps-section .slick-arrow:before {
+.slick-arrow:before {
     margin-left: -45%;
 }
 }
+
