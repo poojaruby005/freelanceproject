@@ -1797,3 +1797,68 @@ padding-right: 5px;
     padding: 31px;
 }
 }
+/*metrics-section*/
+.metrics-section{
+  background:#EFF7FD;
+  padding: 72px 0 40px;
+}
+.metrics-section h1{
+  font-size: 25px;
+  line-height: 30px;
+  color: #9CC43C;
+  padding-bottom: 13px;
+}
+.metrics-section p{
+  font-size: 18px;
+  line-height: 22px;
+  color: #223970;
+  padding-bottom: 75px;
+  text-align: center;
+}
+.metrics-box{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.metrics-box p{
+font-size: 16px;
+    line-height: 20px;
+    padding: 40px;
+    max-width: 355px;
+    margin: 0 auto;
+}
+@media all and (max-width:767px) {
+  .metrics-box {
+    width: 100%;
+}
+}
+/*policy-section*/
+.policy-section{
+  background: url(../images/about/green-banner.jpg) center no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100vw;
+}
+.policy-section h1{
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  padding: 32px 0 22px;
+  text-transform: uppercase;
+}
+.policy-section p{
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+@media all and (max-width:767px) {
+  .policy-section {
+    height: 265px;
+}
+.policy-section p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 15px;
+}
+}
