@@ -240,6 +240,12 @@ $(document).on('ready', function () {
       // instead of a settings object
     ]
   });
+
+    $(".pro-slider-div").on("click", function () {
+      var x = $(this).attr('data-id');
+      console.log(x);
+      $('.img-zoom-pro').attr('src','images/pumps/printer-slider' + x + '.png')
+    });
 });
 
 

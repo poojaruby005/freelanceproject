@@ -1695,7 +1695,7 @@ padding-right: 5px;
   display: flex;
     justify-content: center;
 }
-.social-div ul li i{
+.social-div ul li a i{
   width: 44px;
   height: 44px;
   line-height: 44px;
@@ -1762,6 +1762,7 @@ padding-right: 5px;
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
+    padding: 0 20px;
 }
 .vision-div,.mission-div{
   width: 50%;
@@ -2034,3 +2035,355 @@ font-size: 9px;
     padding: 64px 0 0;
 }
 }
+/*products-section*/
+.products-section{
+  padding: 64px 0;
+}
+.products-img-div{
+  width: 65%;
+    float: left;
+    text-align: center;
+}
+.products-desc{
+  width: 35%;
+  float: left;;
+}
+.products-img-div h1{
+  font-size: 48px;
+  line-height: 59px;
+  color: #213A71;
+  font-weight: bold;
+  text-align: left;
+}
+.cir-tag{
+  width: 122px;
+    height: 122px;
+    line-height: 122px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #213A71;
+    box-shadow: 0 0 0 5px #ffffff inset;
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.products-img-div img.img-zoom-pro{
+  width: 490px;
+  height: 490px;
+}
+.cir-tag p{
+font-size: 16px;
+line-height: 20px;
+font-weight: bold;
+
+}
+.products-desc label{
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 10px;
+}
+.products-desc .social-div{
+  display: inline-flex;
+}
+.products-desc .social-div ul{
+  display: inline-flex;
+    margin: -5px 0 0px;
+}
+.stars-div{
+  width: 100%;
+    float: left;
+    padding: 50px 20px 0;
+    max-width: 398px;
+}
+.stars-div i{
+  color:#0372BA;
+  padding-bottom: 17px;
+}
+.stars-div p{
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 44px;
+}
+.stars-div h1{
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 22px;
+  text-align: left;
+}
+.stars-div h4{
+  font-size: 25px;
+  line-height: 29px;
+  padding-bottom: 23px;
+}
+.prod-cta{
+background-color:#0372BA;
+padding: 20px;
+width: 100%;
+color: #fff;
+border-radius: 10px;
+}
+
+@media all and (max-width:767px) {
+  .products-img-div {
+    width: 100%;
+}
+.products-img-div {
+    padding: 20px;
+}.products-img-div img.img-zoom-pro {
+    width: 300px;
+    height: 300px;
+}
+.products-desc {
+    width: 100%;
+}
+.products-desc label {
+    font-size: 18px;
+    line-height: 24px;
+}
+.products-desc .social-div ul {
+    margin: -10px 0 0px;
+}
+.stars-div {
+    padding: 20px 20px 0;
+}
+.stars-div h1 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.stars-div h4 {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+}
+/*section-sepec*/
+.section-sepec{
+  padding-bottom: 20px;
+}
+.title-bg{
+  float: left;
+  background-color:#213A71;
+  width: 65%;
+  padding: 14px;
+}
+.title-bg h1{
+  color: #fff;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.sepec-content{
+  width: 65%;
+    float: left;
+    padding: 20px 0;
+}
+.sepec-content h2{
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 13px;
+  border-bottom: 2px solid;
+   max-width: 497px;
+}
+.sepec-content table{
+  padding: 28px 0 0;
+  color: #000;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+   max-width: 497px;
+}
+
+.sepec-content table tr{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid;
+  padding: 22px 0;
+}
+
+.sepec-content table tr th,.sepec-content table tr td{
+  max-width: 218px;
+  font-weight: 300;
+  width: 50%;
+    float: left;
+}.sepec-img{
+  width: 35%;
+  float: left;
+}
+.sepec-box{
+  width: 100%;
+  float: left;
+  padding: 88px 0;
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-between;
+}
+.sepec-box .box{
+  color: #fff;
+    text-align: center;
+    width: 33%;
+    float: left;
+    padding: 42px;
+}
+.sepec-box .box p{
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 23px;
+}
+.blue-box{
+  background:#0372BA;
+}
+.green-box{
+  background: #9CC43C;
+}
+
+@media all and (max-width:767px) {
+  .title-bg {
+    width: 100%;
+}
+.title-bg h1 {
+    font-size: 30px;
+    line-height: 34px;
+}
+.sepec-content {
+    width: 100%;
+    padding: 20px;
+}
+.sepec-box .box {
+    width: 100%;
+}
+.sepec-box {
+    display: inherit;
+    padding: 64px 0;
+}
+}
+/*section-cons-feat*/
+.section-cons-feat{
+  padding-bottom: 20px;
+}
+.sepec-content ol{
+  width: 100%;
+  float: left;
+  padding: 53px 25px;
+
+}
+.sepec-content ol li{
+  padding: 0 0 10px;
+  color: #000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.cons-feat-right{
+  width: 35%;
+  float: left;
+}
+.cons-feat-right img{
+  width: 637px;
+  height: auto;
+}
+@media all and (max-width:767px) {
+  .sepec-content ol {
+    padding: 30px 20px;
+}
+.sepec-content ol li {
+    font-size: 16px;
+    line-height: 20px;
+}
+}
+/*turaco-about-product*/
+.turaco-about-product{
+  background-color:#223A71;
+  padding: 61px;
+
+}
+.turaco-about-product h1{
+  color:#9CC43C;
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 37px;
+
+}
+.turaco-about-product p{
+  color:#fff;
+  font-size: 25px;
+  line-height: 29px;
+}
+@media all and (max-width:767px) {
+  .turaco-about-product {
+    padding: 20px;
+}
+.turaco-about-product h1 {
+    text-align: left;
+}
+.turaco-about-product p {
+    font-size: 18px;
+    line-height: 24px;
+}
+}
+/*feat-appl-section*/
+.feat-appl-section{
+  padding: 79px 0 0;
+}
+.feat-appl-section table{
+  width: 100%;
+  float: left;
+}
+
+.feat-appl-section table tr th,.feat-appl-section table tr td{
+  width: 50%;
+  float: left;
+  padding: 47px;
+  border: 1px solid rgba(141, 141, 141, 0.61);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -3px;
+}
+.feat-appl-section table tr td{
+  min-height: 250px;
+  padding: 50px 80px;
+}
+.feat-appl-section table tr td ul{
+  list-style: disc;
+}
+.feat-appl-section table tr td ul li{
+  font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    text-align: left;
+    text-transform: none;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+h2.slider-pro-title{
+  color: #213a71;
+    padding-bottom: 13px;
+    border-bottom: 2px solid;
+    max-width: 497px;
+    text-align: left;
+    margin-bottom: 83px;
+}
+@media all and (max-width:767px) {
+  .feat-appl-section table tr th{
+    padding: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        min-height: 80px;
+}
+.feat-appl-section table tr td {
+    min-height: 270px;
+    padding: 20px;
+}
+.feat-appl-section table tr td ul li {
+    font-size: 14px;
+    line-height: 18px;
+}
+h2.slider-pro-title{
+    margin: 0 20px 83px;
+}
+}
+
