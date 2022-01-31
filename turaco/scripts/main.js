@@ -246,6 +246,11 @@ $(document).on('ready', function () {
       console.log(x);
       $('.img-zoom-pro').attr('src','images/pumps/printer-slider' + x + '.png')
     });
+    $(".pro-slider-div.fans-slider").on("click", function () {
+      var x = $(this).attr('data-id');
+      console.log(x);
+      $('.img-zoom-pro').attr('src','images/fans/fans-pro-slider' + x + '.png')
+    });
 });
 
 
