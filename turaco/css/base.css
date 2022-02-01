@@ -1698,6 +1698,7 @@ padding-right: 5px;
 .social-div ul{
   display: flex;
     justify-content: center;
+    list-style: none;
 }
 .social-div ul li a i{
   width: 44px;
@@ -2063,6 +2064,15 @@ font-size: 12px;
   font-weight: bold;
   text-align: left;
 }
+.products-img-div a{
+  color: #0372BA;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: inherit;
+    text-align: left;
+    padding-bottom: 5px;
+}
 .cir-tag{
   width: 122px;
     height: 122px;
@@ -2403,6 +2413,16 @@ h2.slider-pro-title::after{
     width: 163px;
     height: 104px;
 }
+.products-desc ul.pro-list{
+list-style: disc;
+padding: 20px;
+}
+.products-desc ul.pro-list li{
+font-size: 20px;
+line-height: 34px;
+font-weight: 500;
+color: #000;
+}
 @media all and (max-width:767px) {
   .feat-appl-section table tr th{
    padding: 20px;
@@ -2433,5 +2453,186 @@ h2.slider-pro-title{
 .pro-slider-div p {
   font-size: 12px;
   line-height: 16px;
+}
+h2.slider-pro-title::after {
+    width: 300px;
+}
+.products-desc ul.pro-list li {
+    font-size: 18px;
+    line-height: 28px;
+}
+}
+/*contact-section*/
+.contact-section
+{
+  padding: 64px 0;
+}
+.contact-left{
+    width: 45%;
+    float: left;
+}
+.contact-right{
+    width: 55%;
+    float: left;
+}
+.contact-left h1 {
+    font-size: 40px;
+    line-height: 47px;
+    padding: 0 0 28px;
+    color: #213A71;
+    font-weight: bold;
+    text-align: left;
+}
+.contact-left address{
+  width: 100%;
+  float: left;
+  font-size: 30px;
+    line-height: 35px;
+    font-style: inherit;
+}
+.contact-left address span{
+  color: #9CC43C;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 50px 0 24px;
+    width: 100%;
+    float: left;
+}
+.contact-left address p{
+  color: #223A71;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 0 0 13px;
+    width: 100%;
+    float: left;
+}
+.contact-right img{
+  padding: 100px 0px 0 70px;
+}
+.form-section{
+ width: 100%;
+    height: auto;
+    background: url(../images/bg-form.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 95px;
+}
+.form-section h1{
+  color:#9CC43C;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 47px 0 29px;
+  text-transform: uppercase;
+}
+.form-div{
+width: 100%;
+max-width: 960px;
+    margin: 0 auto;
+}
+.form-box{
+  width: 100%;
+  float: left;
+    padding: 100px 58px 33px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px #8f8f8f;
+}
+.form-box form input[type="text"],.form-box form input[type="number"]{
+ width: 48%;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    color: #939598;
+    border: 1px solid;
+    margin: 0 5px 10px 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+.form-box form textarea{
+  width: 97%;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+    color: #939598;
+    border: 1px solid;
+    margin: 0 5px 10px 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;}
+
+    .form-box input[type="submit"]{
+      background: #0372BA;
+      padding: 32px 10px;
+  margin: 30px auto;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  width: 100%;
+  max-width: 311px;
+  float: left;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  color: #fff;
+  text-transform: uppercase;
+    }
+    .section-div iframe {
+    border: none;
+    width: 100%;
+    min-height: 400px;
+    display: block;
+    -webkit-filter: var(--iframe-filter);
+    -moz-filter: var(--iframe-filter);
+    -ms-filter: var(--iframe-filter);
+    -o-filter: var(--iframe-filter);
+    filter: var(--iframe-filter);
+}
+@media all and (max-width:767px) {
+  .contact-left,.contact-right{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .contact-right img{
+    padding: 0 0;
+  }
+  .contact-left h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .contact-left address {
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .contact-left address span {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px 0 11px;
+  }
+  .contact-left address p {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 0 8px;
+  }
+  .form-div {
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+}
+.form-box {
+    padding: 20px;
+}
+.form-box form input[type="text"], .form-box form input[type="number"], .form-box form textarea {
+    width: 100%;
 }
 }
