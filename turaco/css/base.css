@@ -542,12 +542,13 @@ header {
     text-align: center;
     font-weight: bold;
     color: #223A71;
+    transition: ease 3s;
 }
 .head-link ul li a:hover{
-  text-decoration: underline;
+  color: #9CC43C;
 }
 .head-link ul li.active a{
-  text-decoration: underline;
+  color: #9CC43C;
 }
 .ham-btn {
  padding: 11px 0 0;
@@ -1536,9 +1537,8 @@ width: 50%;
 }
 
 /*features-section*/
-.features-section{
-  padding:0 0;
-
+.features-section {
+    padding: 125px 0 0;
 }
 .bg-blue::before {
   content: '';
