@@ -16,6 +16,23 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     </head>
     <body>
+        <!--spinner-->
+        <div id="overlay">
+            <div class="loaderCenter">
+                <div class="loaderCon">
+                    <div class="col-full">
+                        <div class="loaderimag">
+                            <img src="images/logo.png" />
+                            <div id="loadertxt">Loading...</div>
+                        </div>
+
+                        <div id="progress"></div>
+                        <div id="progstat"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--spinner ends-->
         <div id="wrapper">
             <!-- Start your HTML content here -->
 
@@ -142,7 +159,7 @@
                  </div>
              </div>
             </section>
-            <section class="section-div about-us">
+            <section class="section-div about-us toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="img-collage">
                         <img src="images/img-1.png" class="img-1" />
@@ -156,26 +173,27 @@
                         <a href="about-us.html">Read More + </a>
                         <ul>
                             <li>
-                                <span class="count" data-value="25" >25 </span><i>+</i><span class="count-text">Business Year</span>
+                                <p><span class="count" data-value="25" >25 </span><i>+</i></p>
+                                    <span class="count-text">Business Year</span>
                             </li>
                             <li>
-                                <span class="count" data-value="30" >30 </span><i>+</i><span class="count-text">Distributors</span>
+                                <p><span class="count" data-value="30" >30 </span><i>+</i></p><span class="count-text">Distributors</span>
                             </li>
                             <li>
-                                <span class="count" data-value="2000" >2000 </span><i>+</i><span class="count-text">Dedicated Dealers</span>
+                                <p><span class="count" data-value="2000" >2000 </span><i>+</i></p><span class="count-text">Dedicated Dealers</span>
                             </li>
                             <li>
-                                <span class="count" data-value="18" >18 </span><i>+</i><span class="count-text">Service Centers</span>
+                                <p><span class="count" data-value="18" >18 </span><i>+</i></p><span class="count-text">Service Centers</span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section class="section-div title-section">
+            <section class="section-div title-section toanimate toanimate-bottom animate">
                 <p>widest range</p>
                 <h1>our products</h1>
             </section>
-            <section class="section-div pumps-section">
+            <section class="section-div pumps-section toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="slider-div">
                         <ul class="responsive">
@@ -209,7 +227,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-div fans-section">
+            <section class="section-div fans-section toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="slider-div mob-show">
                         <ul class="responsive">
@@ -268,7 +286,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-div cables-section">
+            <section class="section-div cables-section toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="slider-div">
                         <ul class="responsive">
@@ -301,7 +319,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-div industries-section">
+            <section class="section-div industries-section toanimate toanimate-bottom animate">
                     <div class="ins-div">
                         <h1>INDUSTRIES</h1>
                         <p>WE SERVE</p>
@@ -318,11 +336,11 @@
                     </div>
                     </div>
             </section>
-            <section class="section-div title-section">
+            <section class="section-div title-section toanimate toanimate-bottom animate">
                 <p>OUR USP</p>
                 <h1>WHY TURACCO</h1>
             </section>
-            <section class="section-div features-section">
+            <section class="section-div features-section toanimate toanimate-bottom animate">
                 <div class="center-container bg-blue">
                     <div class="features-left desk-show">
                         <img src="images/features-girl.png">
@@ -349,7 +367,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-div inquire-section">
+            <section class="section-div inquire-section toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="inquire-div">
                         <img src="images/inq-man.png">
@@ -429,6 +447,7 @@
             
         </div>
         <!--wrapper ends-->
+        <script type="text/javascript" src="scripts/loder.js"></script>
         <script type="text/javascript" src="scripts/slick_min.js"></script>
         <script type="text/javascript" src="scripts/main.js"></script>
         
