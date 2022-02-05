@@ -1,6 +1,4 @@
 
-
-
 /* ------------------------------------------------------------ *\
     01. Base CSS Reset
 \* ------------------------------------------------------------ */
@@ -31,14 +29,7 @@ select::-ms-expand {
 }
 
 
-/* ------------------------------------------------------------ *\
-    02. Fonts
-\* ------------------------------------------------------------ */
- 
- @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Thin.ttf');
- }
+
 
 /* ------------------------------------------------------------ *\
     03. Base Css
@@ -92,7 +83,7 @@ body {
   clear: both;
 }
 body, p, div, span, button, i, label, a, input, select, textarea, option {
- font-family: "Montserrat", Helvetica, Arial;
+ font-family: 'Montserrat', Helvetica, Arial;
  font-size: 18px;
  letter-spacing: 0.38px;
  font-weight: 600;
@@ -181,7 +172,6 @@ body, p, div, span, button, i, label, a, input, select, textarea, option {
 }
 
 h1 {
- font-family: "Montserrat", Georgia, sans-serif;
  font-size: 42px;
  width: 100%;
  float: left;
@@ -192,7 +182,6 @@ h1 {
 }
 
 h2 {
- font-family: "Montserrat", Georgia, sans-serif;
  font-size: 28px;
  font-weight: 600;
  line-height: 1.32;
@@ -202,7 +191,7 @@ h2 {
 p {
  font-size: 18px;
  letter-spacing: 0.38px;
- font-weight: 500;
+ font-weight: 400;
 }
 
 .sub-header {
@@ -222,8 +211,7 @@ p {
  border: 1px solid transparent;
  display: inline-block;
  letter-spacing: 0.5px;
- font-family: "Montserrat", Helvetica, Arial;
- font-weight: 600;
+ font-weight: 400;
 }
 
 .primary-btn{
@@ -245,6 +233,15 @@ p {
     border-image-slice: 9;
     border-style: solid;
     padding: 13px 29px;
+    transition: 0.5s;
+    border-radius: 0;
+}
+.btn-product:hover{
+  background-image: linear-gradient(
+90deg
+, #9CC43C, #27AAE1);
+  color:#fff ;
+  border-radius: 0;
 }
 .pull-left{
   float: left !important;
@@ -289,7 +286,7 @@ p {
  }
  body, p, div, span, button, i, label, a, input, select, textarea, option {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
  }
  .desk-show {
   display: none !important;
@@ -503,129 +500,6 @@ p {
 }
 
 /* ------------------------------------------------------------ *\
-    05. Article
-\* ------------------------------------------------------------ */
-
-article {
- background: #fff;
- position: relative;
- z-index: 20;
-}
-
-.article-inner {
- padding: 35px 58px 46px 15px;
- display: inline-block;
-}
-
-.article-top {
- margin-top: 50px !important;
-}
-
-.article-title {
- font-size: 42px;
- margin-bottom: 20px;
- font-weight: 500;
- margin-top: 0;
- text-align: left;
-}
-
-.article-subtitle {
- font-size: 20px;
- margin-bottom: 20px;
- font-weight: 200;
-}
-
-.article-inner p {
- color: #000;
- width: 100%;
- float: left;
- font-weight: 200;
-}
-
-.article-inner p a {
- color: #000;
- text-decoration: underline;
- font-size: 18px;
-}
-
-.article-button-area {
- width: 100%;
- float: left;
- text-align: left;
- margin-top: 30px;
-}
-
-.article-btn {
- border: 1px solid #000;
- background: #fff none repeat scroll 0 0;
- color: #000;
- display: inline-block;
- padding: 12px 0;
- width: 200px;
- font-size: 14px;
-}
-
-.pink-btn {
- border: 1px solid #000;
- background: #fff none repeat scroll 0 0;
- color: #000;
- display: inline-block;
- padding: 12px 0;
- /*text-transform: uppercase;*/
- width: 200px;
- font-size: 14px;
-}
-
-.pink-btn:hover {
- background: #FF008E;
- border: 1px solid #FF008E;
- color: #fff;
-}
-
-@media all and (max-width:767px) {
- .article-title {
-  font-size: 25px;
-  text-align: left;
-  margin-bottom: 10px;
- }
- .article-btn {
-  padding: 10px 15px;
-  width: auto;
-  min-width: 150px;
-  margin: 0 auto;
-  float: left !important;
-  font-weight: 300;
- }
- .article-button-area {
-  margin-top: 30px;
- }
- .article-inner p {
-  text-align: left;
-  font-weight: 300;
- }
- .article-inner p a {
-  color: #000;
-  text-decoration: underline;
-  font-size: 15px;
- }
- .article-subtitle {
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-family: "Montserrat", Georgia, sans-serif;
-  letter-spacing: 0.38px;
-  font-weight: 300;
-  line-height: 1.6;
- }
- .article-inner {
-  margin: 0 auto;
-  padding: 40px 35px 36px 35px;
-  background: #fff;
-  max-width: 280px;
-  margin-top: -50px;
- }
-}
-
-/* ------------------------------------------------------------ *\
     06. Header
 \* ------------------------------------------------------------ */
 
@@ -727,15 +601,30 @@ header {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
  .head-logo {
-  width: 20%
+  width: 15%;
+  padding: 0;
  }
- .head-link {
-  width: 80%;
+  .head-link {
+  width: 85%;
   float: right;
  }
+  .head-logo img {
+    width: auto;
+    height: auto;
+}
+
  .head-link ul li {
-  padding: 6px 0 0;
+  padding: 35px 10px 0;
  }
+.vision-div h2 {
+    padding-left:20px;
+}
+.mission-div h2 {
+    padding-right:20px;
+}
+.policy-section {
+    height: 225px;
+}
 }
 
 /* ------------------------------------------------------------ *\
@@ -804,7 +693,6 @@ header {
 .mob-menu-logo p {
  font-size: 15px;
  color: #000;
- font-family: Montserrat, serif;
 }
 
 .mob-menu-close {
@@ -865,7 +753,6 @@ header {
     text-decoration: none;
     padding: 20px 15px;
     font-weight: 600;
-    font-family: "Montserrat", Helvetica, Arial;
 }
 
 .mobMenuBtn span {
@@ -885,6 +772,7 @@ header {
     background-position: bottom right;
     position: relative;
     background-repeat: no-repeat;
+    padding: 0 20px;
 }
 .slider {
   position: relative;
@@ -905,6 +793,7 @@ color: #fff;
     font-size: 35px;
     line-height: 43px;
     padding: 147px 0 13px;
+    font-weight: 500;
 }
 
 .rslides h3{
@@ -1413,7 +1302,7 @@ width: 50%;
     text-transform: uppercase;
     line-height: 12px;
     color: #063574;
-    font-weight: 400;
+    font-weight: 600;
 }
 .responsive p{
   font-size: 14px;
@@ -1691,6 +1580,8 @@ width: 50%;
     border-radius: 10px;
     position: absolute;
     z-index: 0;
+    left: 0;
+    right: 0;
 }
 .features-left{
   width: 50%;
@@ -1756,7 +1647,7 @@ display: flex;
 .inquire-div p{
   font-size: 21px;
   line-height: 25px;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
 }
 .area-cta{
@@ -1797,7 +1688,7 @@ footer{
 color:#9CC43C;
 font-size: 13px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 .contact-div address i{
@@ -1806,7 +1697,7 @@ padding-right: 5px;
 .footer-title{
   font-size: 13px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 23px;
   color:#58AFE2;
 
@@ -1814,7 +1705,7 @@ padding-right: 5px;
 .footer-grey-title{
   font-size: 13px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 23px;
   color:#939598;
 }
@@ -1860,7 +1751,7 @@ padding-right: 5px;
   color:#A7A9AC;
   font-size: 13px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 600;
 
 }
 
@@ -1905,9 +1796,9 @@ padding-right: 5px;
 .about-section h1{
   text-align: left;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 0 20px;
 }
@@ -1923,7 +1814,7 @@ padding-right: 5px;
 }
 .vision-div p{
   font-size: 14px;
-  line-height: 17px;
+  line-height: 20px;
   color: #fff;
   padding: 31px 52px;
   background: #223A71;
@@ -1993,6 +1884,10 @@ font-size: 16px;
 .metrics-section {
     margin: 80px 0 0;
 }
+.metrics-box p {
+    font-size: 14px;
+    line-height: 20px;
+}
 }
 /*policy-section*/
 .policy-section{
@@ -2016,7 +1911,8 @@ font-size: 16px;
 }
 @media all and (max-width:767px) {
   .policy-section {
-    height: 265px;
+    height: auto;
+    padding: 0 0 30px;
 }
 .policy-section p {
     font-size: 15px;
@@ -2122,8 +2018,8 @@ text-align: center;
     padding-bottom: 15px;
 }
 .prom-content p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 20px;
 }
 }
 /*self-pump-section*/
@@ -2214,7 +2110,7 @@ font-size: 12px;
 }
 .products-img-div a{
   color: #0372BA;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     display: inherit;
@@ -2374,7 +2270,7 @@ border-radius: 10px;
 
 .sepec-content table tr th,.sepec-content table tr td{
   max-width: 218px;
-  font-weight: 500;
+  font-weight: 600;
   width: 50%;
     float: left;
     padding-right: 50px;
@@ -2447,7 +2343,7 @@ border-radius: 10px;
   color: #000;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .cons-feat-right{
   width: 35%;
@@ -2531,7 +2427,7 @@ border-radius: 10px;
     text-align: left;
     text-transform: none;
     padding-bottom: 5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 h2.slider-pro-title{
   color: #213a71;
@@ -2568,7 +2464,7 @@ padding: 20px;
 .products-desc ul.pro-list li{
 font-size: 20px;
 line-height: 34px;
-font-weight: 500;
+font-weight: 600;
 color: #000;
 }
 @media all and (max-width:767px) {
@@ -2624,9 +2520,9 @@ h2.slider-pro-title::after {
     float: left;
 }
 .contact-left h1 {
-    font-size: 40px;
-    line-height: 47px;
-    padding: 0 0 28px;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 0 0 20px;
     color: #213A71;
     font-weight: bold;
     text-align: left;
@@ -2634,23 +2530,23 @@ h2.slider-pro-title::after {
 .contact-left address{
   width: 100%;
   float: left;
-  font-size: 30px;
-    line-height: 35px;
+  font-size: 24px;
+    line-height: 30px;
     font-style: inherit;
 }
 .contact-left address span{
   color: #9CC43C;
     font-size: 25px;
     line-height: 29px;
-    padding: 50px 0 24px;
+    padding: 30px 0 20px;
     width: 100%;
     float: left;
 }
 .contact-left address p{
   color: #223A71;
-    font-size: 25px;
-    line-height: 29px;
-    padding: 0 0 13px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 0 10px;
     width: 100%;
     float: left;
 }
@@ -2697,8 +2593,8 @@ max-width: 960px;
     color: #939598;
     border: 1px solid;
     margin: 0 5px 10px 0;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 16px;
 }
 .form-box form textarea{
@@ -2709,17 +2605,17 @@ max-width: 960px;
     color: #939598;
     border: 1px solid;
     margin: 0 5px 10px 0;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 14px;
     line-height: 16px;}
 
     .form-box input[type="submit"]{
       background: #0372BA;
-      padding: 32px 10px;
+      padding: 20px 10px;
   margin: 30px auto;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
@@ -2728,7 +2624,7 @@ max-width: 960px;
   border: 1px solid transparent;
   border-radius: 0px;
   width: 100%;
-  max-width: 311px;
+  max-width: 250px;
   float: left;
   left: 50%;
   position: relative;
@@ -2793,4 +2689,78 @@ max-width: 960px;
 .form-box form input[type="text"], .form-box form input[type="number"], .form-box form textarea {
     width: 100%;
 }
+}
+
+
+/* ------------------------------------------------------------ *\
+   iPhone 
+\* ------------------------------------------------------------ */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* iphone X */
+@media only screen and (min-device-width: 375px) and (min-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* iphone XR */
+@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* iphone XS */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* iphone XS Max */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .about-content {
+    padding: 0 20px;
+  }
+  .rslides p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.img-collage {
+    width: 100%;
+    padding: 0 20px;
+}
+.img-1, .img-2, .img-3{
+  width: 48%;
+}
+.about-content {
+    width: 100%;
+}
+.head-link ul li a {
+    font-size: 16px;
+    line-height: 20px;
+}
+.center-container{
+  padding: 0 15px;
+}
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  
 }
