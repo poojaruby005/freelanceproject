@@ -118,7 +118,8 @@ $(document).on('ready', function () {
   $('.responsive').slick({
     centerMode: true,
     dots: false,
-    infinite: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -167,7 +168,8 @@ $(document).on('ready', function () {
   $('.prom-slider').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -205,8 +207,9 @@ $(document).on('ready', function () {
 
     $('.product-slider').slick({
     dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     infinite: true,
-    speed: 300,
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
