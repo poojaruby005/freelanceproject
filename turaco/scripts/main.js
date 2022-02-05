@@ -267,3 +267,17 @@ $(document).on('ready', function () {
 
 
 
+var stickybtn = $('#stickybutton');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    stickybtn.addClass('show');
+  } else {
+    stickybtn.removeClass('show');
+  }
+});
+
+stickybtn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
