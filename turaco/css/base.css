@@ -2932,7 +2932,48 @@ max-width: 960px;
   opacity: 1;
   visibility: visible;
 }
-
+#whatsappstickybutton {
+  display: inline-block;
+  background-image: linear-gradient(
+90deg
+, #9CC43C, #27AAE1);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  box-shadow: 1px 2px 27px #0b1b29;
+  z-index: 998;
+}
+#whatsappstickybutton::after {
+  content: "\f232";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 50px;
+  color: #fff;
+  transition: 0.3s;
+}
+#whatsappstickybutton:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+90deg
+, #27AAE1, #9CC43C);
+}
+#whatsappstickybutton:active {
+  background-image: linear-gradient(
+90deg
+, #27AAE1, #9CC43C);
+}
+#whatsappstickybutton.show {
+  opacity: 1;
+  visibility: visible;
+}
 /* ------------------------------------------------------------ *\
    iPhone 
 \* ------------------------------------------------------------ */
