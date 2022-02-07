@@ -2781,7 +2781,7 @@ max-width: 960px;
     border-radius: 20px;
     box-shadow: 1px 2px 8px #8f8f8f;
 }
-.form-box form input[type="text"],.form-box form input[type="number"]{
+.form-box form input[type="text"],.form-box form input[type="email"]{
  width: 48%;
     float: left;
     padding: 20px;

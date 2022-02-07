@@ -139,18 +139,18 @@
                 <h1>Get in Touch</h1>
                 <div class="form-div">
                      <div class="form-box">
-                        <form action="">
-                          <input type="text" id="name" name="name" placeholder="Name">
+                        <form action="mail-success.php" method="post" id="sky-form" class="contact-form" data-toggle="validator">
+                          <input type="text" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
 
-                          <input type="text" placeholder="Email Address" id="email" name="email">
+                          <input type="email" id="email" name="email" placeholder="Email" required data-error="Please enter your email">
 
-                          <input type="number" placeholder="Contact Number" id="phone" name="phone" >
+                          <input type="text" name="phone" placeholder="Phone" id="phone" pattern="[7-9]{1}[0-9]{9}"  required="" data-error="Phone number with 7-9 and remaing 9 digit with 0-9"  >
 
-                          <input type="text" placeholder="City" id="city" name="city">
+                          <input type="text" name="subject" id="subject" placeholder="Subject" required=""required data-error="Enter Subject">
 
-                          <textarea id="comments" placeholder="Your Message" name="comments" rows="4"></textarea>
+                          <textarea name="message" id="message" placeholder="Your message here..." required="" data-error="Write your message" rows="4"></textarea>
 
-                          <input type="submit" value="Submit" class="button btn-product">
+                          <input type="submit" id="submit" value="Send a Message" class="button btn-product">
                         </form>  
                      </div>
                 </div>
@@ -233,6 +233,7 @@
         </div>
         <!--wrapper ends-->
         <script type="text/javascript" src="scripts/slick_min.js"></script>
+        <script type="text/javascript" src="scripts/contact-us.js"></script>
         <script type="text/javascript" src="scripts/main.js"></script>
         
         
