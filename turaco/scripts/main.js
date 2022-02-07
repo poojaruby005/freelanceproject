@@ -49,11 +49,6 @@ $(document).ready(function(){
       $(".mob-menu-box").removeClass("mobActive");
     });
 
-  
-
-
-
-
   });
 
 //section animations
@@ -124,7 +119,7 @@ $(document).on('ready', function () {
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 2,
-    centerPadding: '10px',
+    centerPadding: '20px',
     responsive: [
       {
         breakpoint: 1024,
@@ -206,36 +201,29 @@ $(document).on('ready', function () {
 
 
     $('.product-slider').slick({
-    dots: false,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
+    centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
+          centerPadding: '40px',
+        slidesToShow: 3
         }
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          centerMode:true
+          centerPadding: '40px',
+        slidesToShow: 2
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          centerMode:true
+          centerPadding: '40px',
+        slidesToShow: 1
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -266,6 +254,24 @@ $(document).on('ready', function () {
       console.log(x);
       $('.img-zoom-pro').attr('src','images/cables/cable-pro-img' + x + '.png')
     });
+
+    $('.sepec-box .box:not(:first)').addClass('inactive');
+    $('.collapse-in').hide();
+    $('.collapse-in:first').show();
+
+    $(".sepec-box .box").on("click", function () {
+        var t = $(this).attr('id');
+        console.log(t);
+          if($(this).hasClass('inactive')){ //this is the start of our condition 
+            // alert();
+            $('.sepec-box .box').addClass('inactive');           
+            $(this).removeClass('inactive');
+            
+            $('.collapse-in').hide();
+            $('#'+ t + 'C').fadeIn('slow');
+            console.log('#'+ t + 'C');
+         }
+    });
 });
 
 
@@ -283,4 +289,61 @@ $(window).scroll(function() {
 stickybtn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+//gallery code
+$(document).ready(function () {
+
+  //gallery open
+  $(".galleryOpen").on("click", function () {
+    
+    $("body").addClass("is-not-scrollable");
+    $(".galleryOverlay").removeClass("galleryFade");
+    $(".galleryContainer").removeClass("galleryFade");
+    $(".galleryMainBox").addClass("galleryActive");
+    $(".stickyBtn").addClass("shide");
+  });
+
+  //gallery close
+  $("#galleryClose").click(function () {
+   
+    $("body").removeClass("is-not-scrollable");
+    $(".galleryOverlay").addClass("galleryFade");
+    $(".galleryContainer").addClass("galleryFade");
+    $(".galleryMainBox").removeClass("galleryActive");
+  });
+
+  //close on escape
+  $(document).keyup(function (e) {
+    if (e.keyCode == 27) {
+      
+      $("body").removeClass("is-not-scrollable");
+      $(".galleryOverlay").addClass("galleryFade");
+      $(".galleryContainer").addClass("galleryFade");
+      $(".galleryMainBox").removeClass("galleryActive");
+    }
+  });
+
+});
+
+var vidId="";
+function onPlayerStateChange(event) {
+switch (event.data) {
+case YT.PlayerState.ENDED:
+$(".frameBox").css("display", "none");
+$(".gvideo-block_"+vidId).html('<div id="pplayer_'+vidId+'"><a href="javascript:;" class="btn-play" id="'+vidId+'"></a></div>');
+break;
+}
+}
+jQuery(document).ready(function ($) {
+jQuery(document).on("click", ".btn-play", function () {
+vidId = $(this).attr('id');
+$(this).parent().html('<iframe id="pplayer_' + vidId + '" src="https://www.youtube.com/embed/' + vidId + '?enablejsapi=1&autoplay=1&autohide=1&showinfo=0" frameborder="0" allow="autoplay;fullscreen" class="frameBox"></iframe>');
+new YT.Player('pplayer_' + vidId, {
+events: {
+'onStateChange': onPlayerStateChange
+}
+});
+});
 });

@@ -127,12 +127,13 @@
                 <script>
                     $(function () {
                       $("#slider").responsiveSlides({
-                        auto: true,
-                        nav: false,
-                        speed: 500,
+                         auto: true,  
+                        pager: true, 
+                        nav: true,
+                        prevText: "Previous",
+                        nextText: "Next",
                         namespace: "callbacks",
-                        pager: true,
-                      });
+                        });
                     });
                 </script>
                 <div class="slider">
@@ -165,7 +166,7 @@
                     <div class="img-collage">
                         <img src="images/img-1.png" class="img-1" />
                         <img src="images/img-2.png" class="img-2"/>
-                        <img src="images/img-3.png" class="img-3"/>
+                        <img src="images/img-3.png" class="img-3 galleryOpen" />
                     </div>
                     <div class="about-content">
                         <span>WHO WE ARE</span>
@@ -210,7 +211,7 @@
                             <p>Self Prime Monoblock Pumps</p>
                           </li>
                           <li>
-                            <img src="images/pumps/3.png">
+                            <img src="images/pumps/3.jpg">
                             <span>Pumpsets</span>
                             <p>Self Prime Monoblock Pumps</p>
                           </li>
@@ -224,7 +225,7 @@
                     <div class="pumps-content">
                         <h1>Pump sets</h1>
                         <p>Check out a range of pumps.</p>
-                        <a href="pumps.html" class="button primary-btn"> View more</a>
+                        <a href="pumps.html" class="button btn-product"> View more</a>
                     </div>
                 </div>
             </section>
@@ -258,7 +259,7 @@
                     <div class="fans-content">
                         <h1>Fans</h1>
                         <p>Check out a range of Fans.</p>
-                        <a href="fans.html" class="button primary-btn pull-right"> View more</a>
+                        <a href="fans.html" class="button btn-product pull-right"> View more</a>
                     </div>
                     <div class="slider-div desk-show">
                         <ul class="responsive">
@@ -316,7 +317,7 @@
                     <div class="cables-content">
                         <h1>Cables & Wires</h1>
                         <p>Check out a range of Cabels & Wires.</p>
-                        <a href="wires-and-cables.html" class="button primary-btn"> View more</a>
+                        <a href="wires-and-cables.html" class="button btn-product"> View more</a>
                     </div>
                 </div>
             </section>
@@ -449,6 +450,40 @@
                     </div>
             </footer>
             <a id="stickybutton"></a>
+
+            <!-- gallery page-->
+        <div class="section-gallery" id="gall_sec">
+            <div class="galleryOverlay galleryFade"></div>
+            <div class="galleryContainer galleryFade">
+                <div class="galleryMain">
+                    <!--header-->
+                    <div class="galleryHeader">
+                        <span class="galleryCloseBox">
+                            <a href="javascript:;" class="galleryClose" id="galleryClose">X</a>
+                        </span>
+                    </div>
+
+                    <!--gallery box-->
+                    <div class="galleryMainBox" id="otrGalMkt">
+                        <div class="gallery-container">
+                            <div class="gallery-content">
+                                <div class="galleryBox">
+                                    <div class="gallerySlider">
+                                        <div class="galRow" data-in="0" data-head="Sergio Rojas" data-para="Bournemouth">
+                                            <div class="gvideo-block gvideobg1 videoWrap_aSOqE12C474">
+                                                <div id="pplayer_aSOqE12C474">
+                                                    <a href="javascript:;" class="btn-play test1" id="aSOqE12C474"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <!--wrapper ends-->
         <script type="text/javascript" src="scripts/loder.js"></script>
