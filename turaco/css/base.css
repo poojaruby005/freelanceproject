@@ -1976,7 +1976,7 @@ font-size: 12px;
   color: #fff;
   padding: 40px 52px;
   background: #9CC43C;
-  min-height: 200px;
+  min-height: 220px;
   text-align: justify;
 }
 @media all and (max-width:767px) {
@@ -3249,7 +3249,7 @@ max-width: 960px;
  
  .gvideobg1{
    position: relative;
-   background: url("../images/industrial.jpg");
+   background: url("../images/videoimg.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
