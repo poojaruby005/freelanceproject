@@ -1,10 +1,10 @@
 
-var SheetID = "1ujXeDMlDl68yXDCFUkvzVZibVcAyu93XzJWRyUlX6zE";
-var SheetName='Index';
+var SheetID = "1ZIesJe2fpH3IyaIr0q7ynOsU6XE8_xCqiIISV8jEq-s";
+var SheetName='Ajeet';
 var MarketCode = "WE";
 var ovrl = $("#overlay");
-var url = "https://script.google.com/macros/s/AKfycbx6xMPc-b3BpAhh1nqQM9b-efZjzMpd7kIzFGf6coq15w24_L8sqDg0AV5Un54SFCi4/exec?id="+SheetID+"&sheet="+SheetName;
-console.log(MarketCode);
+var url = "https://script.google.com/macros/s/AKfycbxRz84l1iP5AFvR3xmCDlksYsE_eoS7ZKtz-FOy0oUSoXwdVm4F6vl6AArqwdMcFR0i/exec?id="+SheetID+"&sheet="+SheetName;
+// console.log(MarketCode);
 $.getJSON(url, function(data) {
     var obj = Object.keys(data),
     json = data[obj];
