@@ -692,6 +692,7 @@ border-radius: 50px!important;
     background-color: #EEF9FF;
     padding: 48px 102px;
     margin-bottom: 32px;
+    border-radius: 8px;
 }
 
 #recent-works i{
@@ -3208,4 +3209,15 @@ ul.social-share li a i {
     font-size: 14px;
     line-height: 20px;
 }
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 15px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    
+}
+.text-darkblack{
+    color: #191919;
+    font-weight: 400;
 }
