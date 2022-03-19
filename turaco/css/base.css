@@ -1753,15 +1753,16 @@ width: 50%;
     position: relative;
     margin-top: 0em;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .bg-blue::before {
     content: '';
     background: transparent;
 }
-.features-box {
-    width: 155px;
-    height: 155px;
-}
+
 }
 /*inquire-section*/
 .inquire-section{
