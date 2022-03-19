@@ -961,10 +961,12 @@ ul.callbacks_tabs.callbacks1_tabs {
 .callbacks1_nav.next::before{
   right: -40px;
   top: 70%;
+  display: none;
 }
 .callbacks1_nav.prev::before{
   left: -40px;
   top: 70%;
+  display: none;
 }
 }
 /*about-us*/
@@ -1086,10 +1088,6 @@ position: absolute;
   .about-content p {
     font-size: 14px;
   }
-  .about-content span {
-    font-size: 9px;
-    line-height: 14px;
-  }
   .about-content ul li {
     padding:20px 10px 0 0;
   }
@@ -1099,7 +1097,17 @@ position: absolute;
   span.count {
       font-size: 20px;
   }
-
+.about-content ul {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.about-content ul li {
+    padding: 20px 10px 0 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
 }
 /* ------------------------------------------------------------ *\
     title-sectio
@@ -1751,7 +1759,8 @@ width: 50%;
     background: transparent;
 }
 .features-box {
-    width: 45%;
+    width: 155px;
+    height: 155px;
 }
 }
 /*inquire-section*/
@@ -1809,6 +1818,7 @@ display: flex;
 .inquire-div p {
     padding: 20px 0;
     font-size: 18px;
+    text-align: right;
 }
 .inquire-div img{
   width: 30%;
@@ -1819,7 +1829,7 @@ display: flex;
 .area-cta {
     width: 65%;
     float: left;
-    text-align: left;
+    text-align: right;
 }
 }
 /*footer*/
@@ -1831,7 +1841,7 @@ footer{
   width: 28%;
   float: left;
 }
-.addre-div address,.contact-div address{
+.addre-div address a,.contact-div address a{
 color:#9CC43C;
 font-size: 13px;
   line-height: 22px;
@@ -2281,6 +2291,9 @@ font-size: 13px;
 .pro-slider-div a{
 font-size: 12px;
     padding: 8px 10px;
+}
+.pro-slider-div {
+    border-right: 1px solid transparent;
 }
 }
 /*products-section*/
@@ -2833,7 +2846,7 @@ max-width: 960px;
     border-radius: 20px;
     box-shadow: 1px 2px 8px #8f8f8f;
 }
-.form-box form input[type="text"],.form-box form input[type="email"]{
+.form-box form input[type="text"],.form-box form input[type="email"],.form-box form input[type="number"]{
  width: 48%;
     float: left;
     padding: 20px;
@@ -2908,6 +2921,7 @@ max-width: 960px;
   .contact-left h1 {
     font-size: 28px;
     line-height: 32px;
+    padding-top: 30px;
   }
   .con-left,.con-right{
     width: 50%;
@@ -2938,6 +2952,9 @@ max-width: 960px;
 }
 .form-section {
     background-position: left;
+}
+.form-box form input[type="text"],.form-box form input[type="email"],.form-box form input[type="number"]{
+ width: 100%;
 }
 }
 #stickybutton {
@@ -3292,4 +3309,26 @@ max-width: 960px;
 .gvideo-block iframe {
   height: 300px;
  }
+}
+.flex-direction{
+  display: initial;
+  flex-direction: column;
+}
+.order1{
+  order: unset;
+}
+.order2{
+  order: unset;
+}
+@media all and (max-width: 767px) {
+.flex-direction{
+  display: flex;
+  flex-direction: column;
+}
+.order1{
+  order: 1;
+}
+.order2{
+  order: 2;
+}
 }
