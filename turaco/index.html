@@ -9,6 +9,8 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/animate.min.css" rel="stylesheet" />
         <link href='css/font-family.css' rel='stylesheet'>
         <link rel="stylesheet" href="css/base.css" />
 
@@ -120,47 +122,86 @@
                     </div>
                 </div>
             </div>
+            <section id="main-slider" class="no-margin">
+            <div class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active" style="background-image: url(images/slider/bg1.png);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="carousel-content">
+                                        <h1 class="animation animated-item-1">Building path to</h1>
+                                        <h3 class="animation animated-item-2">
+                                            INNOVATION
+                                        </h3>
+                                        <h4 class="animation animated-item-3">
+                                            creating new trends
+                                        </h4>
+                                        <p class="animation animated-item-4">CEILIN FANS I TABLE FANS I WALL FANS</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
 
-            <!--hero section-->
-            <section class="section-div hero-section">
-                <script src="scripts/responsiveslides.min.js"></script>
-                <script>
-                    $(function () {
-                      $("#slider").responsiveSlides({
-                         auto: true,  
-                        pager: true, 
-                        nav: true,
-                        prevText: "Previous",
-                        nextText: "Next",
-                        namespace: "callbacks",
-                        });
-                    });
-                </script>
-                <div class="slider">
-                 <div class="callbacks_container">
-                     <ul class="rslides" id="slider">
-                         <li>             
-                             <h2>Building path to</h2>
-                             <h3>INNOVATION,</h3>
-                             <h4>creating new trends</h4>
-                             <p>CEILIN FANS I TABLE FANS I WALL FANS</p>
-                         </li>
-                         <li>             
-                             <h2>Building2 path to</h2>
-                             <h3>INNOVATION,</h3>
-                             <h4>creating new trends</h4>
-                             <p>CEILIN FANS I TABLE FANS I WALL FANS</p>
-                         </li>
-                         <li>             
-                             <h2>Building3 path to</h2>
-                             <h3>INNOVATION,</h3>
-                             <h4>creating new trends</h4>
-                             <p>CEILIN FANS I TABLE FANS I WALL FANS</p>
-                         </li>
-                      </ul>
-                 </div>
-             </div>
-            </section>
+                    <div class="item" style="background-image: url(images/slider/bg2.png);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="carousel-content">
+                                        <h1 class="animation animated-item-1">Building2 path to</h1>
+                                        <h3 class="animation animated-item-2">
+                                            INNOVATION
+                                        </h3>
+                                        <h4 class="animation animated-item-3">
+                                            creating new trends
+                                        </h4>
+                                        <p class="animation animated-item-4">CEILIN FANS I TABLE FANS I WALL FANS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
+
+                    <div class="item" style="background-image: url(images/slider/bg3.png);">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="carousel-content">
+                                        <h1 class="animation animated-item-1">Building3 path to</h1>
+                                        <h3 class="animation animated-item-2">
+                                            INNOVATION
+                                        </h3>
+                                        <h4 class="animation animated-item-3">
+                                            creating new trends
+                                        </h4>
+                                        <p class="animation animated-item-4">CEILIN FANS I TABLE FANS I WALL FANS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.item-->
+                </div>
+                <!--/.carousel-inner-->
+            </div>
+            <!--/.carousel-->
+            <a class="prev hidden-xs hidden-sm" href="#main-slider" data-slide="prev">
+                <i class="fa fa-chevron-left"></i>
+            </a>
+            <a class="next hidden-xs hidden-sm" href="#main-slider" data-slide="next">
+                <i class="fa fa-chevron-right"></i>
+            </a>
+        </section>
+        <!--/#main-slider-->
             <section class="section-div about-us toanimate toanimate-bottom animate">
                 <div class="center-container">
                     <div class="img-collage">
@@ -470,6 +511,7 @@
         </div>
         </div>
         <!--wrapper ends-->
+        <script src="scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="scripts/loder.js"></script>
         <script type="text/javascript" src="scripts/slick_min.js"></script>
         <script type="text/javascript" src="scripts/main.js"></script>
