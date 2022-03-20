@@ -1167,6 +1167,7 @@ position: absolute;
 
 .slider-div li img {
   max-width: 100%;
+  height: 200px;
   text-align: center;
 }
 .pumps-section{
@@ -1211,6 +1212,9 @@ width: 50%;
   height: auto;
     overflow-x: hidden;
 
+}
+.slider-div li img {
+  height: 180px;
 }
 .pumps-content {
     width: 100%;
@@ -1410,15 +1414,20 @@ width: 50%;
   margin-left: -67%;
 }
 .responsive span{
-  font-size: 10px;
+  width: 100%;
+  float: left;
+  font-size: 14px;
     text-transform: uppercase;
-    line-height: 12px;
+    line-height: 16px;
     color: #213a71;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 .responsive p{
-  font-size: 14px;
-    line-height: 16px;
+  width: 100%;
+  float: left;
+  font-size: 16px;
+    line-height: 20px;
     color: #213a71;
 }
 
@@ -1511,7 +1520,10 @@ width: 50%;
 }
 
 .slick-initialized .slick-slide {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .slick-loading .slick-slide {

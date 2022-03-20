@@ -116,16 +116,16 @@ $(document).on('ready', function () {
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 300,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 2,
+    initialSlide: 1,
     centerPadding: '20px',
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: false,
           dots: false,
 
@@ -134,7 +134,7 @@ $(document).on('ready', function () {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
           centerMode: true,
@@ -144,7 +144,7 @@ $(document).on('ready', function () {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
           centerMode: true,
