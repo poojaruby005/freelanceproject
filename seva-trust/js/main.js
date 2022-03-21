@@ -36,16 +36,22 @@ $(document).ready(function() {
         event.preventDefault();
         // debugger;
         var _name = $("#name").val();
-        var _email = $("#email").val();
+        var _dob = $("#dob").val();
+        var _male = $("#male").val();
+        var _female = $("#female").val();
         var _phone = $("#phone").val();
+        var _email = $("#email").val();
         var _subject = $("#subject").val();
-        var _message = $("#message").val();
+        var _address = $("#address").val();
 
-        if(_name == null || _name == "" || 
+        if(_name == null || _name == "" ||
+            _dob == null || _dob == "" ||
+            _male == null || _male == "" ||
+            _female == null || _female == "" ||
+            _phone == null || _phone == "" ||
             _email == null || _email == "" ||
-            _phone == null || _phone == "" || 
             _subject == null || _subject == "" || 
-            _message == null || _message == "") {
+            _address == null || _address == "") {
             return;
         }
 
@@ -103,13 +109,4 @@ $(document).ready(function() {
      backdrop: 'static',
      keyboard: false
     });
-});
-
-$(document).ready(function() {
-   $("navbar-nav li").click(function() {
-      // remove classes from all
-      $("li").removeClass("active");
-      // add class to the one we clicked
-      $(this).addClass("active");
-   });
 });

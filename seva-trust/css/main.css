@@ -71,7 +71,6 @@ p{
 h3 {
     font-size: 16px;
     color: #474958;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -2761,12 +2760,12 @@ ul.tickmark-list li:before {
     opacity: unset;
 }
 .modal-dialog {
-    max-width: 631px;
+    max-width: 632px;
     margin: 30px auto;
 }
 .modal-content {
-    background-color: #EFEFEF;
-    border-radius: 12px;
+    background-color: #fff;
+    border-radius: 0;
   
 }
 
@@ -2803,6 +2802,7 @@ ul.tickmark-list li:before {
     border-color: #163981 !important;
     padding: 16px 64px !important;
     margin-top: 32px;
+    outline: none !important;
 }
 .list-unstyled {
     padding-left: 0;
@@ -2819,7 +2819,7 @@ iframe{
     width: 100%;
     float: left;
     position: relative;
-    padding: 16px 50px;
+    padding: 16px 25px;
     text-align: center;
 }
 .thanku-title img{
@@ -2829,14 +2829,13 @@ iframe{
 font-size: 32px;
 line-height: 40px;
 margin-bottom: 64px;
-color: #000;
+color: #474958;
 }
 .thanku-title h3{
 font-size: 32px;
 line-height: 40px;
-color: #2975BB;
+color: #162C5C;
 padding-bottom: 16px;
-font-weight: 600;
 }
 .thanku-title p{
     font-size: 20px;
@@ -2845,9 +2844,11 @@ font-weight: 600;
     color: #474958;
 }
 .thanku-title label{
-    padding-bottom: 16px;
-    font-size: 16px;
+    padding-bottom: 26px;
+    font-size: 20px;
     line-height: 24px;
+    color: #474958;
+    font-weight: 700;
 }
 .thanku-title .social-share{
     padding-bottom: 16px;
@@ -2857,14 +2858,14 @@ font-weight: 600;
 }
 .thanku-title .social-share li a {
     display: inline-block;
-    color: #fff;
-    background: #2975bb;
-    width: 56px;
-    height: 56px;
-    line-height: 56px;
+    color: #fff !important;
+    background: #162C5C;
+    width: 35px;
+    height: 35px;
+    line-height: 40px !important;
     text-align: center;
-    border-radius: 50px;
-    font-size: 24px;
+    border-radius: 0;
+    font-size: 10px;
     margin-right: 8px;
 }
 
@@ -3102,10 +3103,18 @@ ul.social-share li a i {
 .navbar-nav {
     margin: 0;
 }
+.modal-dialog {
+    margin: 25px;
 }
-
+}
+.formgroup{
+    width: 100%;
+    float: left;
+    margin-left: -8px;
+    text-align: left;
+}
 input[type="radio"], input[type="checkbox"] {
-    margin: 15px 0 0;
+    margin: 15px 10px 0;
     margin-top: 1px \9;
     line-height: normal;
     

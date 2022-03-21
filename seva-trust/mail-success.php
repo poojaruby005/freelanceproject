@@ -8,11 +8,19 @@ if( isset($_POST['name']) )
   $message = 
               "Name: " .  $_POST['name'] .
                "\n" .
+               "dob: " . $_POST['dob'] .
+                 "\n\n" .
+                 "male: " . $_POST['male'] .
+                 "\n\n" .
+                 "female: " . $_POST['female'] .
+                 "\n\n" .
                 "Phone: " . $_POST['phone'] .
                  "\n\n" .
-                 "Address: " . $_POST['address'] .
+                 "email: " . $_POST['email'] .
+                 "\n\n" .
+                 "subject: " . $_POST['subject'] .
                     "\n\n" .
-                  "Regards, \n" . $_POST['name'] .
+                  "address, \n" . $_POST['address'] .
                    ".";
   $headers = 'From: ' . $_POST['name'] . "\r\n" . 'Reply-To: ' . $_POST['email'] . "\r\n" . 'X-Mailer: PHP/' . phpversion();
   
