@@ -1167,7 +1167,7 @@ position: absolute;
 
 .slider-div li img {
   max-width: 100%;
-  height: 200px;
+  height: 170px;
   text-align: center;
 }
 .pumps-section{
@@ -1520,12 +1520,16 @@ width: 50%;
 }
 
 .slick-initialized .slick-slide {
+  display: block;
+ 
+  
+}
+.responsive.slick-initialized .slick-slide{
   display: flex;
-  flex-wrap: wrap;
+   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 .slick-loading .slick-slide {
   visibility: hidden;
 }

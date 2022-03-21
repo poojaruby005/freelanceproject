@@ -25,10 +25,14 @@ $(document).ready(function(){
       scrollTop = $win.scrollTop();
     });
 
-    $('#main-slider').carousel({
+   
+
+    if($('#main-slider').length>0){
+       $('#main-slider').carousel({
           interval: 3000,
           cycle: true
         }); 
+    }
 
      //menu open
     $("#menuOpen").click(function(){
