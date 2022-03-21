@@ -20,6 +20,11 @@ $(document).ready(function () {
       });
     } // End if
   });
+
+      $('#main-slider').carousel({
+          interval: 3000,
+          cycle: true
+        }); 
 });
 
 $(document).ready(function() {
@@ -34,13 +39,13 @@ $(document).ready(function() {
         var _email = $("#email").val();
         var _phone = $("#phone").val();
         var _subject = $("#subject").val();
-        var _message = $("#address").val();
+        var _message = $("#message").val();
 
         if(_name == null || _name == "" || 
             _email == null || _email == "" ||
             _phone == null || _phone == "" || 
             _subject == null || _subject == "" || 
-            _address == null || _address == "") {
+            _message == null || _message == "") {
             return;
         }
 
@@ -98,4 +103,13 @@ $(document).ready(function() {
      backdrop: 'static',
      keyboard: false
     });
+});
+
+$(document).ready(function() {
+   $("navbar-nav li").click(function() {
+      // remove classes from all
+      $("li").removeClass("active");
+      // add class to the one we clicked
+      $(this).addClass("active");
+   });
 });

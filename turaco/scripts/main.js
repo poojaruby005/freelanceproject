@@ -25,6 +25,11 @@ $(document).ready(function(){
       scrollTop = $win.scrollTop();
     });
 
+    $('#main-slider').carousel({
+          interval: 3000,
+          cycle: true
+        }); 
+
      //menu open
     $("#menuOpen").click(function(){
       $("body").addClass("is-not-scrollable");
