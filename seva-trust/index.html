@@ -44,7 +44,7 @@
         </div>
         <!--spinner ends-->
         <header id="header">
-            <nav class="navbar navbar-inverse" role="banner">
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -56,12 +56,12 @@
                         <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo" /></a>
                     </div>
 
-                    <div class="collapse navbar-collapse navbar-right">
+                    <div class="collapse navbar-collapse navbar-right"  id="navbarSupportedContent">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="javascripts:;" data-trans="0">Home</a></li>
                             <li><a href="#recent-works" class="sscroll" data-trans="1">Seva</a></li>
                             <li><a href="#about-details" class="sscroll" data-trans="2">About us</a></li>
-                            <li><a href="#donate-section" class="sscroll" data-trans="3">Contact us</a></li>
+                            <li><a href="#bottom" class="sscroll" data-trans="3">Contact us</a></li>
                             <li class="btn-trans" data-id="checked"><a href="javascripts:;" class="btn btn-orange" data-trans="4">ಕನ್ನಡ</a></li>
                             <li><a href="#register-section" class="btn btn-blue-border sscroll" data-trans="5">Register</a></li>
                             <li><a href="#donate-section" class="btn btn-blue sscroll" data-trans="6">Donate</a></li>
@@ -371,10 +371,14 @@
                                                     <label data-trans="48">Gender</label>
                                                 </div>
                                                 <div class="formgroup">
-                                                    <input type="radio" id="male" name="male" value="male" />
-                                                    <label for="male" class="text-darkblack" data-trans="49">Male</label>
-                                                    <input type="radio" id="female" name="female" value="female" />
-                                                    <label for="female" class="text-darkblack" data-trans="50">Female</label>
+                                                    <label class="sq-radio"><i data-trans="49">Male</i>
+                                                        <input type="radio" checked="checked" id="male" value="male" name="radio">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                    <label class="sq-radio"><i data-trans="50">Female</i>
+                                                        <input type="radio" id="female" value="female" name="radio">
+                                                        <span class="checkmark"></span>
+                                                    </label>
                                                 </div>
                                             </div>
                                         </div>

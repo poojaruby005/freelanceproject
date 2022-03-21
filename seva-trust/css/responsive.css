@@ -263,9 +263,16 @@
   .container > .navbar-header, .container > .navbar-collapse{
     margin-left: 0;
   }
-  .container > .navbar-collapse{
-    margin-right: 0;
+  .navbar-header{
+    padding: 0 15px;
+  }
+  .navbar .container{
     padding: 0;
+  }
+  .container > .navbar-collapse{
+    padding: 15px;
+    background: #fff;
+    margin: 0;
   }
     .about-img{
         padding-right: 0;
