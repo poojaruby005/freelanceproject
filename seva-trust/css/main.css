@@ -3098,6 +3098,9 @@ ul.social-share li a i {
     font-size: 14px;
     line-height: 20px;
 }
+.navbar-nav {
+    margin: 0;
+}
 }
 
 input[type="radio"], input[type="checkbox"] {

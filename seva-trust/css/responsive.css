@@ -197,6 +197,7 @@
     }
     .navbar-inverse .navbar-nav>li>a{
         display: block;
+        padding: 9px 0;
     }
     .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
         background-color: transparent;
@@ -264,6 +265,7 @@
   }
   .container > .navbar-collapse{
     margin-right: 0;
+    padding: 0;
   }
     .about-img{
         padding-right: 0;
