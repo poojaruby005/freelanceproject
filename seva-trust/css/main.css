@@ -365,11 +365,12 @@ border-radius: 50px!important;
    margin-bottom: 0;
 }
 #main-slider .carousel .carousel-content {
-    font-size: 20px;
+font-size: 20px;
     font-weight: 400;
     color: #fff;
     line-height: 24px;
-
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 #main-slider .carousel .slide-margin {
@@ -3042,7 +3043,7 @@ ul.social-share li a {
     background: #ffffff;
     width: 25px;
     height: 25px;
-    line-height: 25px !important;
+    line-height: 30px !important;
     text-align: center;
     padding: 0 !important;
 }
