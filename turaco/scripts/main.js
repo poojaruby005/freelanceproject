@@ -116,20 +116,21 @@ $('.count').each(function () {
 $(document).on('ready', function () {
 
   $('.responsive').slick({
-    centerMode: true,
+    centerMode: false,
     dots: false,
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 300,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 1,
     centerPadding: '20px',
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: false,
           dots: false,

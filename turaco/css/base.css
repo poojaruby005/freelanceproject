@@ -1160,7 +1160,7 @@ position: absolute;
 }
 
 .slider-div li {
-  width: 33%;
+  width: 100%;
   float: left;
   margin-right: 20px;
 }
@@ -1413,21 +1413,21 @@ width: 50%;
 .slick-prev:before{
   margin-left: -67%;
 }
-.responsive span{
+.slider-div span{
   width: 100%;
   float: left;
-  font-size: 14px;
+  font-size: 10px;
     text-transform: uppercase;
-    line-height: 16px;
+    line-height: 14px;
     color: #213a71;
     font-weight: 600;
     padding-bottom: 10px;
 }
-.responsive p{
+.slider-div p{
   width: 100%;
   float: left;
-  font-size: 16px;
-    line-height: 20px;
+  font-size: 14px;
+    line-height: 18px;
     color: #213a71;
 }
 
@@ -1556,7 +1556,7 @@ width: 50%;
     margin-left: -45%;
     margin-top: -30px;
 }
-  .responsive p {
+  .slider-div p {
     font-size: 12px;
     line-height: 14px;
   }
@@ -1860,7 +1860,14 @@ footer{
   width: 28%;
   float: left;
 }
-.addre-div address a,.contact-div address a{
+.addre-div address{
+  color:#9CC43C;
+font-size: 13px;
+  line-height: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+.contact-div address a{
 color:#9CC43C;
 font-size: 13px;
   line-height: 22px;
