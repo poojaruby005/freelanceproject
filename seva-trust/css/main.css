@@ -1243,12 +1243,6 @@ textarea#message {
 /*********************
 ****blog page css*****
 **********************/
-
-.widget {
-    margin-bottom: 30px;
-    padding-left: 0;
-}
-
 aside .widget {
     background: #fff;
     padding: 25px;
@@ -1963,7 +1957,9 @@ shortcodes page css
     color: #fff;
     line-height: 32px;
 }
-
+#bottom h3.white-space{
+    white-space: nowrap;
+}
 .footer-text-style address{
     color: #fff;
     font-size: 20px;
@@ -1981,10 +1977,6 @@ shortcodes page css
     padding: 4px 0;
 }
 
-#bottom .widget {
-    margin-bottom: 0;
-    padding-left: 15px;
-}
 .widget ul li a{
     font-size: 16px;
     line-height: 24px;
@@ -2496,7 +2488,8 @@ ul.social-share li a i {
     margin-top: 20px;
 }
 .contact-form {
-    max-width: 320px;
+   max-width: 100%;
+    padding: 0 15px;
 }
 .footer-text-style address {
     font-size: 16px;
