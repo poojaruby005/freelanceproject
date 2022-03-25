@@ -3,7 +3,7 @@
 *******Typography******
 **************************/
 /* cyrillic-ext */
-@font-face {
+@font-face {1
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
@@ -2583,5 +2583,14 @@ input[type="radio"], input[type="checkbox"] {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
     padding: 10px 0px 0;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    max-height: 360px;
+}
+#header {
+    height: 80px;
+}
+.navbar {
+    height: 80px;
 }
 }
