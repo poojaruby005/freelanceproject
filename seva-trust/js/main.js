@@ -28,13 +28,13 @@ $(document).ready(function () {
 
 
 $( '#header .navbar-nav a' ).on('click', 
-                    function () {
-            $( '#header .navbar-nav' ).find( 'li.active' )
-            .removeClass( 'active' );
-            $( this ).parent( 'li' ).addClass( 'active' );
-        });
+    function () {
+        $( '#header .navbar-nav' ).find( 'li.active' )
+        .removeClass( 'active' );
+        $( this ).parent( 'li' ).addClass( 'active' );
+    });
 
-$(".navbar-nav a, .navbar-toggle").click(function(){
+    $(".navbar-nav a, .navbar-toggle").click(function(){
         $(".navbar-collapse").slideToggle();
     });
 });
@@ -51,8 +51,7 @@ $(document).ready(function() {
         // debugger;
         var _name = $("#name").val();
         var _dob = $("#dob").val();
-        var _male = $("#male").val();
-        var _female = $("#female").val();
+        var _gender = $("#gender").val();
         var _phone = $("#phone").val();
         var _email = $("#email").val();
         var _subject = $("#subject").val();
@@ -60,8 +59,7 @@ $(document).ready(function() {
 
         if(_name == null || _name == "" ||
             _dob == null || _dob == "" ||
-            _male == null || _male == "" ||
-            _female == null || _female == "" ||
+            _gender == null || _gender == "" ||
             _phone == null || _phone == "" ||
             _email == null || _email == "" ||
             _subject == null || _subject == "" || 

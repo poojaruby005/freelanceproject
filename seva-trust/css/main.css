@@ -1944,14 +1944,14 @@ shortcodes page css
 #bottom {
     background: #13295A;
     font-size: 14px;
-    padding: 108px 0;
+    padding: 64px 0 20px;
     width: 100%;
     float: left;
 }
 
 #bottom h3 {
   margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     text-transform: unset;
     font-size: 24px;
     color: #fff;
@@ -2022,7 +2022,7 @@ shortcodes page css
     float: left;
     color: #fff;
     text-align: center;
-    padding: 0 0 64px 0;
+    padding: 0 0 32px 0;
 }
 .footer-width{
     max-width: 870px;
@@ -2453,7 +2453,7 @@ ul.social-share li a i {
 
 #bottom ul.social-share li {
     display: inline-block;
-    padding: 4px 22px 0 0;
+    padding: 4px 10px 0 0;
 }
 
 @media all and (max-width: 767px) {
@@ -2554,11 +2554,11 @@ input[type="radio"], input[type="checkbox"] {
   transition: all 0.3s ease;
   width: 50%;
 }
-.custom-radios input[type="radio"]#color-1 + label span {
+.custom-radios input[type="radio"]#male + label span {
   background-color: #fff;
     border: 1px solid #999999;
 }
-.custom-radios input[type="radio"]#color-2 + label span {
+.custom-radios input[type="radio"]#female + label span {
   background-color: #fff;
     border: 1px solid #999999;
 }

@@ -1,7 +1,7 @@
 <?php
 if( isset($_POST['name']) )
 {
-  $to = 'poojaruby005@gmail.com'; // Replace with your email
+  $to = 'info@nagadevata.com'; // Replace with your email
   
   $subject = $_POST['subject'];
 
@@ -10,9 +10,7 @@ if( isset($_POST['name']) )
                "\n" .
                "dob: " . $_POST['dob'] .
                  "\n\n" .
-                 "male: " . $_POST['male'] .
-                 "\n\n" .
-                 "female: " . $_POST['female'] .
+                 "gender: " . $_POST['gender'] .
                  "\n\n" .
                 "Phone: " . $_POST['phone'] .
                  "\n\n" .
