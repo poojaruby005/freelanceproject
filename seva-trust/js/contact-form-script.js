@@ -14,17 +14,19 @@ $("#main-contact-form").validator().on("submit", function (event) {
 function submitForm(){
     // Initiate Variables With Form Content
     var name = $("#name").val();
-    var email = $("#email").val();
+    var dob = $("#dob").val();
+    var gender = $("#gender").val();
     var phone = $("#phone").val();
+    var email = $("#email").val();
     var subject = $("#subject").val();
-    var message = $("#message").val();
+    var address = $("#address").val();
 
     debugger;
 
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
-        data: { "name": name, "phone": phone, "email": email, "subject": subject, "message": message },
+        data: { "name": name, "dob": dob, "gender": gender, "phone": phone, "email": email, "subject": subject, "address": address },
         success : function(text){
             debugger;
             if (text == "success"){
