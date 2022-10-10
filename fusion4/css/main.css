@@ -2850,7 +2850,7 @@ ul.tickmark-list li:before {
 .pl48{
     padding-left: 48px;
 }
-.service-item h2{
+.service-section h2{
     font-size: 32px;
     padding-top: 24px;
 }
@@ -3311,7 +3311,10 @@ ul.sliderBox li label {
 } 
 
 }
-.service-item {
+#services{
+    background-color: #FFFCE3;
+}
+.service-section {
     background: url('../images/service/img1.jpg') 0 0 no-repeat;
     background-size: cover;
     /*width: 100%;*/
