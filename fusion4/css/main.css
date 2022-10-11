@@ -118,7 +118,7 @@ label{
     padding-top: 48px;
 }
 .btn-primary {
-    padding: 4px 28px !important;
+    padding: 4px 16px !important;
     background: transparent !important;
     border:1px solid #EF7F1B!important;
     color: #EF7F1B!important;
@@ -134,6 +134,9 @@ label{
     transition: ease-in-out 500ms;
    outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
+}
+.btn-primary img{
+    padding-left: 8px;
 }
 .overflow-hidden{
     overflow-y: hidden;
@@ -459,9 +462,9 @@ input.search-form:hover {
     font-size: 16px;
 
 }
-.navbar-nav li a.btn-primary{
+/*.navbar-nav li a.btn-primary{
     margin-left: 18px;
-}
+}*/
 .navbar-inverse .navbar-nav>li>a.btn-primary:hover, .navbar-inverse .navbar-nav>li>a.btn-primary:focus {
     color: #fff;
     background-color: transparent; 
@@ -777,12 +780,32 @@ input.search-form:hover {
 }
 
 .recent-work-wrap {
-    position: relative;
+   position: relative;
     overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 8px rgba(25, 25, 25, 0.08);
+    margin-right: 24px;
 }
-
+.recent-work-wrap p{
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0
+}
+.recent-work-wrap label{
+    font-size: 10px;
+    line-height: 14px;
+    font-style: italic;
+    color: #191919;
+    font-weight: 100;
+    background-color: #E3F6FF;
+    padding: 2px 8px 4px 4px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
 .recent-work-wrap img {
-    width: 95%;
+    width: 100%;
 }
 
 .recent-work-wrap .recent-work-inner {
@@ -1696,24 +1719,26 @@ font-size: 24px;
 
 .portfolio-filter>li a {
     background: none repeat scroll 0 0 #FFFFFF;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
     margin-right: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: all 0.9s ease 0s;
     -moz-transition: all 0.9s ease 0s;
     -webkit-transition: all 0.9s ease 0s;
     -o-transition: all 0.9s ease 0s;
-    border: 1px solid #F2F2F2;
+    border: 1px solid transparent;
     outline: none;
     border-radius: 3px;
 }
 
-.portfolio-filter>li a:hover,
+.portfolio-filter>li a:hover,.portfolio-filter>li a:active,.portfolio-filter>li a:focus,
 .portfolio-filter>li a.active {
-    color: #fff;
-    background: #2975BB;
-    border: 1px solid #2975BB;
+    color: #EF7F1B;
+    background: transparent;
+    border: 1px solid transparent;
+    font-weight: bold;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -1874,7 +1899,24 @@ section.pricing{
 #contact-page {
     padding-top: 70px;
 }
-
+#contact-page p{
+    padding: 24px 0 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+.loc-area h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #191919;
+    margin: 0;
+    padding: 0;
+}
+#contact-page .loc-area p{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 13px;
+}
 #contact-page .contact-form .form-group label {
     color: #191919;
     font-size: 14px;
@@ -3315,14 +3357,23 @@ ul.sliderBox li label {
     background-color: #FFFCE3;
 }
 .service-section {
-    background: url('../images/service/img1.jpg') 0 0 no-repeat;
-    background-size: cover;
-    /*width: 100%;*/
+    width: 100%;
     height: 480px;
     position: relative;
     padding: 0;
 }
-
+.service-img1{
+    background: url('../images/service/img1.png') 0 0 no-repeat;
+    background-size: cover;
+}
+.service-img2{
+    background: url('../images/service/img2.png') 0 0 no-repeat;
+    background-size: cover;
+}
+.service-img3{
+    background: url('../images/service/img3.png') 0 0 no-repeat;
+    background-size: cover;
+}
 .bg-pink{
     background: #FFFCE3 !important; 
 }
@@ -3424,7 +3475,7 @@ margin: 0;
     margin-bottom: 20px;
 }
 .shataya{
-    background: url('../images/Shatayu.png');
+    background: url('../images/shatayu.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3496,6 +3547,15 @@ display:table;
 .bg-blue{
     background-color: #E3F6FF;
 }
+.btn-contact{
+    padding: 16px 24px;
+    background-color: #EF7F1B;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
 
 @media all and (max-width: 767px) {
     .note {
@@ -3528,5 +3588,9 @@ display:table;
     max-width: 790px;
     padding: 0 0 48px;
     margin: 0;
+}
+.recent-work-wrap {
+    margin-bottom: 20px;
+     margin-right: 0; 
 }
 }
