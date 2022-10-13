@@ -181,7 +181,7 @@ a:focus {
 
 .dropdown-menu {
     margin-top: -1px;
-    min-width: 180px;
+    min-width: 208px;
 }
 .pad-bot20{
     padding-bottom: 20px;
@@ -496,22 +496,25 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: transparent !important;
     color: #EF7F1B !important;
-    font-weight: 600;
-    border-bottom: 0px solid;
+    font-weight: 500;
+    border-bottom: 1px solid;
     padding: 9px 0px 0;
     border-radius: 0;
+    
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+   background-color: #fff;
+    -webkit-box-shadow: 0 3px 8px rgb(0 0 0 / 13%);
+    box-shadow: 0 3px 8px rgb(0 0 0 / 13%);
     border: 0;
     padding: 0;
     margin-top: 0;
     border-top: 0;
     border-radius: 0;
     left: 0;
+    top: 40px;
+    padding: 32px;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu:before {
@@ -520,15 +523,14 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu>li>a {
-    padding: 8px 15px;
-    color: #fff;
+    padding: 0 0 16px;
+    color: #191919;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu>li:hover>a,
 .navbar-inverse .navbar-nav .dropdown-menu>li:focus>a,
 .navbar-inverse .navbar-nav .dropdown-menu>li.active>a {
-    background-color: #2875bb;
-    color: #fff;
+    color: #EF7F1B ;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu>li:last-child>a {
@@ -785,12 +787,14 @@ input.search-form:hover {
     margin-bottom: 15px;
     box-shadow: 1px 2px 8px rgba(25, 25, 25, 0.08);
     margin-right: 24px;
+    cursor: pointer;
 }
 .recent-work-wrap p{
     padding: 8px 16px;
     font-size: 16px;
     line-height: 24px;
-    margin: 0
+    margin: 0;
+    color:#191919;
 }
 .recent-work-wrap label{
     font-size: 10px;
@@ -1283,7 +1287,7 @@ a.accordion-toggle i {
 }
 .partner-div{
     width: 100%;
-    max-width: 632px;
+    max-width: 940px;
     margin: 0 auto;
 }
 .partners ul li a img{
@@ -1333,14 +1337,16 @@ a.accordion-toggle i {
     background-color: #fff;
 }
 .testimonial-slider.owl-carousel .owl-item img{
-  width: auto;
+  width: 100%;
     display: inline-block;
     float: right;
     padding-bottom: 8px;
+    height: 520px;
 }
 
 .testimonial-slider{
-    text-align: left;
+    max-width: 680px;
+    margin: 0 auto;
 }
 
 .testimonial-slider .single-slide{
@@ -1393,9 +1399,49 @@ a.accordion-toggle i {
     border-radius: 50%;
     border: 1px solid #191919;
 }
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+.owl-prev{
+    position: absolute;
+    top: 45%;
+    left: -15px;
+    -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.owl-next{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    right: 15px;
+}
 .testimonial-slider .owl-dot.active{
     border-radius: 20px;
     width: 25px;
+}
+#project-view label{
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #191919;
+    font-weight: 500;
+}
+#project-view span{
+    color: #EF7F1B;
+}
+.slider-pegination{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 25px 24px 25px;
+    margin-top: 48px;
+}
+.text-yellow{
+    color: #EF7F1B;
 }
 .title{
     margin-bottom: 48px;
@@ -3554,9 +3600,28 @@ display:table;
     border-radius: 50px;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
-}
+    font-weight: 500;}
 
+#project-view{
+    background: #FFFCE3;
+}
+.project-loc{
+    background: #fff;
+    padding: 16px 20px;
+    display: inherit;
+    max-width: 320px;
+    margin-bottom: 48px;
+}
+.project-loc span{
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 24px;
+}
+.project-loc span img{
+   width: 24px;
+   height: auto;
+   margin-right: 8px;
+}
 @media all and (max-width: 767px) {
     .note {
     bottom: 55px;
@@ -3592,5 +3657,8 @@ display:table;
 .recent-work-wrap {
     margin-bottom: 20px;
      margin-right: 0; 
+}
+.slider-pegination {
+    font-size: 10px;
 }
 }

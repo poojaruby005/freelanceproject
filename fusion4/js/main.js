@@ -30,16 +30,6 @@ jQuery(function ($) {
 
     $('.window-height').height($(window).height());
 
-    // accordian
-    $('.accordion-toggle').on('click', function () {
-        $(this).closest('.panel-group').children().each(function () {
-            $(this).find('>.panel-heading').removeClass('active');
-        });
-
-        $(this).closest('.panel-heading').toggleClass('active');
-    });
-
-
     // portfolio filter
     $(window).load(function () {
         'use strict';
@@ -67,38 +57,21 @@ jQuery(function ($) {
 
     $('.testimonial-slider').owlCarousel({
         margin: 30,
+        navigation: true,
+        dots: false,
+        navText: ['<img src="images/right-arrow.svg" alt="">', '<img src="images/right-arrow.svg" alt="">'],
         responsive: {
             0: {
                 items: 1
             },
             768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
-    });
-
-    $('.aboutus-slider').owlCarousel({
-        margin: 20,
-        center: true,
-        loop: true,
-        dots: true,
-        responsive: {
-            0: {
                 items: 1
             },
-            768: {
-                items: 2
-            },
             992: {
-                items: 2
+                items: 1
             }
         }
     });
-
-
     //goto top
     $('.gototop').click(function (event) {
         event.preventDefault();
@@ -206,6 +179,12 @@ $(document).ready(function () {
   // next
   $('#slider-right').on('click', function () {
     $carousel.flickity('next');
+  });
+
+  //Project View
+  $('.portfolio-item').on('click', function () {
+    var porId = $(this).attr('data-id');
+    console.log(porId);
   });
 
 });
