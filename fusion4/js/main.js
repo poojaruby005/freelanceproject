@@ -166,25 +166,19 @@ $(document).ready(function() {
 
 
 $(document).ready(function () {
-  var $carousel = $('.sliderBox').flickity({
-    prevNextButtons: false,
-    pageDots: false
-  });
 
-  // previous
-  $('#slider-left').on('click', function () {
-    $carousel.flickity('previous');
-  });
+    var $carousel = $('.sliderBox').flickity({
+        prevNextButtons: false,
+        pageDots: false
+    });
 
-  // next
-  $('#slider-right').on('click', function () {
-    $carousel.flickity('next');
-  });
+    // previous
+    $('#slider-left').on('click', function () {
+        $carousel.flickity('previous');
+    });
 
-  //Project View
-  $('.portfolio-item').on('click', function () {
-    var porId = $(this).attr('data-id');
-    console.log(porId);
-  });
-
+    // next
+    $('#slider-right').on('click', function () {
+        $carousel.flickity('next');
+    });
 });
