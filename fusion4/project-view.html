@@ -101,7 +101,7 @@
                                 <a href="projects.html" class="dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="projects.html">Ongoing Projects</a></li>
-                                    <li><a href="projects.html">Completed Projects</a></li>
+                                    <li><a href="projects.html" class="p0">Completed Projects</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact-us.html">Contact Us</a></li>
@@ -132,44 +132,29 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="por1">
-                            <h1 class="title">Chandrakanth</h1>
+                            <h1 class="title" id="projectTitle"></h1>
                             <div class="project-loc">
-                                <span><img src="images/projects/location.svg"/> Bengaluru</span>
-                                <span><img src="images/projects/home.svg"/> Residential</span>
+                                <img src="images/projects/location.svg"/><span>Bengaluru</span>
+                                <img src="images/projects/home.svg"/><span id="projectType"></span>
                             </div>
                             <div class="testimonial-slider owl-carousel">
-                                <div class="single-slide">
-                                    <div class="slide-img">
-                                        <img src="images/projects/chandrakanth/1.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="single-slide">
-                                    <div class="slide-img">
-                                        <img src="images/projects/chandrakanth/2.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="single-slide">
-                                    <div class="slide-img">
-                                        <img src="images/projects/chandrakanth/3.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="single-slide">
-                                    <div class="slide-img">
-                                        <img src="images/projects/chandrakanth/4.jpg" alt="">
-                                    </div>
-                                </div>
+                                
                             </div>
-                            <label> <span>1</span>/3</label>
+                            <label>
+                                <span id="currentSliderImage">1</span>
+                                <span>/</span>
+                                <span id="totalSliderImages"></span>
+                            </label>
                             <div class="slider-pegination">
                                 <div class="row">
                                     <div class="col-sm-4 col-xs-5">
-                                        <!-- <a href="javascripts:;" class="proLeft"><img src="images/projects/arrow-double-left.svg" /> Lokesh</a> -->
+                                        <a href="javascripts:;" class="proLeft"><img src="images/projects/arrow-double-left.svg" /> Lokesh</a>
                                     </div>
                                     <div class="col-sm-4 col-xs-2">
                                         <a href="projects.html" class="proCenter"><img src="images/projects/grid-large.svg"/></a>
                                     </div>
                                     <div class="col-sm-4 col-xs-5">
-                                         <a href="avascripts:;" class="proRight">Chinnaswamy reddy <img src="images/projects/arrow-double-right.svg" /></a>
+                                         <a href="javascripts:;" class="proRight">Chinnaswamy reddy <img src="images/projects/arrow-double-right.svg" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -389,10 +374,17 @@
         <script src="js/jquery.prettyPhoto.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/projects.js"></script>
+        <script src="js/main.js"></script>
+        
         <script type="text/javascript" src="js/form-validator.min.js"></script>
         <script type="text/javascript" src="js/contact-form-script.js"></script>
         <script type="text/javascript" src="js/flickity.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                getProjectDetails();
+            });
+        </script>
     </body>
 </html>
