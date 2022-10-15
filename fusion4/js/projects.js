@@ -12,7 +12,7 @@ $(document).ready(function(){
             {img:'images/projects/chandrakanth/3.jpg'},
             {img:'images/projects/chandrakanth/4.jpg'},
             {img:'images/projects/chandrakanth/5.jpg'},
-            {img:'images/projects/chandrakanth/6.jpg'},
+            // {img:'images/projects/chandrakanth/6.mp4'},
         ]
     },
     {
@@ -201,6 +201,14 @@ $(document).ready(function(){
             {img:'images/projects/Ramesh/30.jpg'},
             {img:'images/projects/Ramesh/31.jpg'},
             {img:'images/projects/Ramesh/32.jpg'},
+            {img:'images/projects/Ramesh/33.jpg'},
+            {img:'images/projects/Ramesh/34.jpg'},
+            {img:'images/projects/Ramesh/35.jpg'},
+            {img:'images/projects/Ramesh/36.jpg'},
+            {img:'images/projects/Ramesh/37.jpg'},
+            {img:'images/projects/Ramesh/38.jpg'},
+            {img:'images/projects/Ramesh/39.jpg'},
+            {img:'images/projects/Ramesh/40.jpg'},
         ]
     },
     {
@@ -211,8 +219,6 @@ $(document).ready(function(){
         sliderImg:[
             {img:'images/projects/Ramesh-Hebbal/1.jpg'},
             {img:'images/projects/Ramesh-Hebbal/2.jpg'},
-            {img:'images/projects/Ramesh-Hebbal/3.jpg'},
-            {img:'images/projects/Ramesh-Hebbal/4.jpg'},
         ]
     },
     {
@@ -248,7 +254,6 @@ $(document).ready(function(){
             {img:'images/projects/Suresh/1.jpg'},
             {img:'images/projects/Suresh/2.jpg'},
             {img:'images/projects/Suresh/3.jpg'},
-            {img:'images/projects/Suresh/4.jpg'},
         ]
     },
     {
@@ -258,9 +263,6 @@ $(document).ready(function(){
         imgthumbnail:'images/projects/Yeshwanthpur/Yeshwanthpur-thumb.png',
         sliderImg:[
             {img:'images/projects/Yeshwanthpur/1.jpg'},
-            {img:'images/projects/Yeshwanthpur/2.jpg'},
-            {img:'images/projects/Yeshwanthpur/3.jpg'},
-            {img:'images/projects/Yeshwanthpur/4.jpg'},
         ]
             
     }
@@ -271,11 +273,6 @@ $(document).ready(function(){
         for (var i = 0; i < projectItems.length; i++) {
             // console.log('Entered');
             $('.portfolio-items').append('<a href="javascripts:;" data-id="'+projectItems[i].itemsid+'" class="portfolio-item col-xs-12 col-sm-3 col-md-3 single-work '+ projectItems[i].types+'"><div class="recent-work-wrap"><img class="img-responsive" src="'+ projectItems[i].imgthumbnail+'" alt="" /><p>'+ projectItems[i].names+'</p><label>'+ projectItems[i].types+'</label></div></a>');   
-        
-            for (var j = 0; j < Object.keys(projectItems[i].sliderImg).length; j++) {
-            // console.log('Entered');
-            // $('.testimonial-slider.owl-carousel').append('<div class="single-slide"><div class="slide-img"><img src="'+projectItems[i].sliderImg[j].img+'" alt=""></div></div>');
-            }
         }
         
 
@@ -285,22 +282,6 @@ $(document).ready(function(){
 
             $('.portfolio-items a').attr('href','project-view.html?pId=' + proId);
         });
-    
-        // console.log(window.porId);
-
-        // if(window.porId == 0){
-        //     $('.por1').show();
-        //     $('.por2').hide();
-        // }
-        // else if(window.porId == 1){
-        //     $('.por1').hide();
-        //     $('.por2').show();
-        // }
-        // else{
-        //     $('.por1').show();
-        //     $('.por2').hide();
-        // }
-
 
 });
 
@@ -311,8 +292,8 @@ function getProjectDetails() {
     const proId = urlParams.get('pId');
 
     let item = projectItems.find(item => item.itemsid == proId);
-    console.log('-------------------------------');
-    console.log(item);
+    // console.log('-------------------------------');
+    // console.log(item);
 
     if(item) {
         $('#projectTitle').html(item.names);
@@ -327,6 +308,7 @@ function getProjectDetails() {
             margin: 30,
             navigation: true,
             dots: false,
+            video:true,
             navText: ['<img src="images/right-arrow.svg" alt="">', '<img src="images/right-arrow.svg" alt="">'],
             responsive: {
                 0: {
