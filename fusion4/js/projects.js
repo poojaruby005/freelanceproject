@@ -95,8 +95,8 @@ $(document).ready(function(){
     },
     {
         itemsid: '5',
-        names: 'Gopal Singh',
-        types: 'ongoing-projects',
+        names: 'Fusion 4 Pearl',
+        types: 'resedential',
         imgthumbnail:'images/projects/Fusion-4-Pearl/Fusion-4-Pearl-thumb.JPG',
         sliderImg:[
             {
@@ -108,7 +108,7 @@ $(document).ready(function(){
     {
         itemsid: '6',
         names: 'Gopal Singh',
-        types: 'ongoing-projects',
+        types: 'resedential',
         imgthumbnail:'images/projects/Gopal-Singh/Gopal-Singh-thumb.JPG',
         sliderImg:[
             {
@@ -208,7 +208,7 @@ $(document).ready(function(){
     {
         itemsid: '9',
         names: 'Krishna Murthy',
-        types: 'ongoing-projects',
+        types: 'resedential',
         imgthumbnail:'images/projects/Krishna-Murthy/Krishna-Murthy-thumb.JPG',
         sliderImg:[
             {
@@ -308,7 +308,7 @@ $(document).ready(function(){
     {
         itemsid: '13',
         names: 'Manju Mansion',
-        types: 'ongoing-projects',
+        types: 'resedential',
         imgthumbnail:'images/projects/Manju-Mansion/Manju-Mansion-thumb.JPG',
         sliderImg:[
             {
@@ -431,7 +431,7 @@ $(document).ready(function(){
     },
     {
         itemsid: '18',
-        names: 'Narendra sharma',
+        names: 'Prakash',
         types: 'resedential',
         imgthumbnail:'images/projects/Prakash/Prakash-thumb.JPG',
         sliderImg:[
@@ -443,7 +443,7 @@ $(document).ready(function(){
     },
     {
         itemsid: '19',
-        names: 'Narendra sharma',
+        names: 'Rakesh Sancheti',
         types: 'resedential',
         imgthumbnail:'images/projects/Rakesh-Sancheti/Rakesh-Sancheti-thumb.JPG',
         sliderImg:[
@@ -660,7 +660,7 @@ $(document).ready(function(){
     {
         itemsid: '23',
         names: 'Sandeep',
-        types: 'commercial',
+        types: 'resedential',
         imgthumbnail:'images/projects/Sandeep/Sandeep-thumb.JPG',
         sliderImg:[
             {
@@ -696,7 +696,7 @@ $(document).ready(function(){
     {
         itemsid: '25',
         names: 'Shatayu',
-        types: 'resedential',
+        types: 'commercial',
         imgthumbnail:'images/projects/Shatayu/Shatayu-thumb.JPG',
         sliderImg:[
             {
@@ -784,7 +784,7 @@ $(document).ready(function(){
     {
         itemsid: '29',
         names: 'Terrace Garden',
-        types: 'commercial',
+        types: 'resedential',
         imgthumbnail:'images/projects/Terrace-Garden/Terrace-Garden-thumb.JPG',
         sliderImg:[
             {
@@ -804,7 +804,7 @@ $(document).ready(function(){
     {
         itemsid: '30',
         names: 'Thammi Reddy',
-        types: 'resedential',
+        types: 'commercial',
         imgthumbnail:'images/projects/Thammi-Reddy/Thammi-Reddy-thumb.JPG',
         sliderImg:[
             {
