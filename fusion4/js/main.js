@@ -21,10 +21,10 @@ $(document).ready(function () {
     } // End if
   });
 });
-$('#main-slider').carousel({
-          interval: 3000,
-          cycle: true
-        });
+// $('#main-slider').carousel({
+//           interval: 3000,
+//           cycle: true
+//         });
 jQuery(function ($) {
     'use strict';
 

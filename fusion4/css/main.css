@@ -773,11 +773,10 @@ input.search-form:hover {
     padding: 0;
 }
 .recent-work-wrap {
-   position: relative;
+    position: relative;
     overflow: hidden;
     margin-bottom: 15px;
     box-shadow: 1px 2px 8px rgba(25, 25, 25, 0.08);
-    margin-right: 24px;
     cursor: pointer;
 }
 .recent-work-wrap p{
@@ -1776,7 +1775,10 @@ font-size: 24px;
     padding: 0;
     text-align: left;
 }
-
+.isotope-item{
+    width: 24%;
+    float: left;
+}
 .portfolio-filter>li {
     display: inline-block;
 }
@@ -1842,10 +1844,10 @@ font-size: 24px;
     transition-duration: 0.8s;
 }
 
-.isotope {
-    -webkit-transition-property: height, width;
-    transition-property: height, width;
-}
+/*.isotope {
+    -webkit-transition-property: height;
+    transition-property: height;
+}*/
 
 .isotope .isotope-item {
     -webkit-transition-property: -webkit-transform, opacity;
@@ -1853,6 +1855,7 @@ font-size: 24px;
     transition-property: opacity, -webkit-transform;
     transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
+    padding-left: 24px;
 }
 
 
@@ -2783,7 +2786,6 @@ shortcodes page css
 
 #bottom .widget {
     margin-bottom: 0;
-    padding-left: 15px;
 }
 .widget h4{
     font-size: 18px;
@@ -3729,5 +3731,9 @@ display:table;
     }
     iframe {
         width: 100%;
+    }
+    .isotope-item{
+    width: 100%;
+    float: left;
     }
 }
