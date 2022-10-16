@@ -52,26 +52,6 @@ jQuery(function ($) {
         });
     });
 
-
-
-
-    // $('.testimonial-slider').owlCarousel({
-    //     margin: 30,
-    //     navigation: true,
-    //     dots: false,
-    //     navText: ['<img src="images/right-arrow.svg" alt="">', '<img src="images/right-arrow.svg" alt="">'],
-    //     responsive: {
-    //         0: {
-    //             items: 1
-    //         },
-    //         768: {
-    //             items: 1
-    //         },
-    //         992: {
-    //             items: 1
-    //         }
-    //     }
-    // });
     //goto top
     $('.gototop').click(function (event) {
         event.preventDefault();

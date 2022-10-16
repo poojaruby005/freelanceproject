@@ -217,7 +217,9 @@ a:focus {
 body>section {
     padding: 64px 0 98px;
 }
-
+.container.container960{
+    max-width: 960px;
+}
 .center {
     text-align: center;
     padding-bottom: 55px;
@@ -1330,8 +1332,14 @@ a.accordion-toggle i {
 #testimonial{
     background-color: #fff;
 }
-.testimonial-slider.owl-carousel .owl-item img{
+.testimonial-slider.owl-carousel .owl-item img,.testimonial-slider.owl-carousel .owl-item video{
   width: auto;
+    display: inline-block;
+    padding-bottom: 8px;
+    height: 520px;
+}
+.testimonial-slider.owl-carousel .owl-item video{
+    width: 99%;
     display: inline-block;
     padding-bottom: 8px;
     height: 520px;
@@ -1744,7 +1752,7 @@ font-size: 24px;
     color: rgba(255, 255, 255, 0.6);
     width: 100%;
     float: left;
-    max-width: 345px;
+    max-width: 270px;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
@@ -1764,7 +1772,7 @@ font-size: 24px;
 .portfolio-items,
 .portfolio-filter {
     list-style: none outside none;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     padding: 0;
     text-align: left;
 }
@@ -3406,7 +3414,7 @@ ul.sliderBox li label {
 .note{
     position: absolute;
     bottom: 24px;
-    left: 136px;
+    left: 20px;
     z-index: 999;
     color: #fff;
     font-size: 16px;
