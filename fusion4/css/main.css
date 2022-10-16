@@ -1861,7 +1861,7 @@ font-size: 24px;
     transition-property: opacity, -webkit-transform;
     transition-property: transform, opacity;
     transition-property: transform, opacity, -webkit-transform;
-    padding-left: 24px;
+    padding-left: 15px;
 }
 
 
