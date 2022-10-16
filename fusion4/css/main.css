@@ -1767,7 +1767,9 @@ font-size: 24px;
     margin-top: 115px;
     padding-bottom: 0;
 }
-
+.mt-15{
+    margin-top: -15px;
+}
 .portfolio-items,
 .portfolio-filter {
     list-style: none outside none;
