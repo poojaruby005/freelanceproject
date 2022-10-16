@@ -1446,18 +1446,19 @@ a.accordion-toggle i {
     width: 100%;
     float: left;
 }
-.slider-pegination a.proLeft{
+#project-view .slider-pegination a.proLeft #spnPrevProjectTitle{
     color: #191919;
     text-align: left;
 }
-.slider-pegination a.proCenter{
-    color: #EF7F1B;
+#project-view .slider-pegination a.proCenter{
+    color: #191919;
     text-align: center;
 }
-.slider-pegination a.proRight{
+#project-view .slider-pegination a.proRight{
     color: #EF7F1B;
     text-align: right;
 }
+
 .title{
     margin-bottom: 48px;
     color: #191919;

@@ -3,9 +3,33 @@ $(document).ready(function(){
     projectItems = [
     {
         itemsid: '0',
-        names: 'Chandrakanth',
+        names: 'Anand',
         types: 'resedential',
-        imgthumbnail:'images/projects/chandrakanth/Chandrakanth-thumb.png',
+        imgthumbnail:'images/projects/Anand/Anand-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Anand/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '1',
+        names: 'Bharathi',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Bharathi/Bharathi-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Bharathi/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '2',
+        names: 'chandrakanth',
+        types: 'resedential',
+        imgthumbnail:'images/projects/chandrakanth/Chandrakanth-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -13,7 +37,7 @@ $(document).ready(function(){
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/2.jpg',
+                path:'images/projects/chandrakanth/2.JPG',
             },
             {
                 type: 'image',
@@ -27,17 +51,13 @@ $(document).ready(function(){
                 type: 'image',
                 path:'images/projects/chandrakanth/5.JPG',
             },
-            {
-                type: 'video',
-                path:'images/projects/chandrakanth/6.mp4',
-            },
         ]
     },
     {
-        itemsid: '1',
+        itemsid: '3',
         names: 'Chinnaswamy Reddy',
         types: 'resedential',
-        imgthumbnail:'images/projects/Chinnaswamy-reddy/Chinnaswamy-reddy-thumb.png',
+        imgthumbnail:'images/projects/Chinnaswamy-reddy/Chinnaswamy-reddy-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -50,10 +70,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '2',
+        itemsid: '4',
         names: 'Chinni',
         types: 'commercial',
-        imgthumbnail:'images/projects/Chinni/Chinni-thumb.png',
+        imgthumbnail:'images/projects/Chinni/Chinni-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -74,10 +94,22 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '3',
+        itemsid: '5',
         names: 'Gopal Singh',
         types: 'ongoing-projects',
-        imgthumbnail:'images/projects/Gopal-Singh/Gopal-Singh-thumb.png',
+        imgthumbnail:'images/projects/Fusion-4-Pearl/Fusion-4-Pearl-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Fusion-4-Pearl/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '6',
+        names: 'Gopal Singh',
+        types: 'ongoing-projects',
+        imgthumbnail:'images/projects/Gopal-Singh/Gopal-Singh-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -90,10 +122,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '4',
+        itemsid: '7',
         names: 'H Reddy',
         types: 'resedential',
-        imgthumbnail:'images/projects/H-Reddy/H-Reddy-thumb.png',
+        imgthumbnail:'images/projects/H-Reddy/H-Reddy-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -162,10 +194,22 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '5',
+        itemsid: '8',
+        names: 'Irris',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Irris/Irris-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Irris/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '9',
         names: 'Krishna Murthy',
         types: 'ongoing-projects',
-        imgthumbnail:'images/projects/Krishna-Murthy/Krishna-Murthy-thumb.png',
+        imgthumbnail:'images/projects/Krishna-Murthy/Krishna-Murthy-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -218,10 +262,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '6',
+        itemsid: '10',
         names: 'Krishna Reddy',
         types: 'commercial',
-        imgthumbnail:'images/projects/Krishna-Reddy/Krishna-Reddy-thumb.png',
+        imgthumbnail:'images/projects/Krishna-Reddy/Krishna-Reddy-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -238,10 +282,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '7',
+        itemsid: '11',
         names: 'Lokesh',
         types: 'resedential',
-        imgthumbnail:'images/projects/Lokesh/Lokesh-thumb.png',
+        imgthumbnail:'images/projects/Lokesh/Lokesh-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -250,10 +294,22 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '8',
+        itemsid: '12',
+        names: 'Mahinder Jain',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Mahinder-Jain/Mahinder-Jain-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Mahinder-Jain/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '13',
         names: 'Manju Mansion',
         types: 'ongoing-projects',
-        imgthumbnail:'images/projects/Manju-Mansion/Manju-Mansion-thumb.png',
+        imgthumbnail:'images/projects/Manju-Mansion/Manju-Mansion-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -274,10 +330,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '9',
+        itemsid: '14',
         names: 'Mohankumar Nagar',
         types: 'commercial',
-        imgthumbnail:'images/projects/Mohankumar-Nagar/Mohankumar-Nagar-thumb.png',
+        imgthumbnail:'images/projects/Mohankumar-Nagar/Mohankumar-Nagar-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -298,10 +354,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '10',
+        itemsid: '15',
         names: 'Narendra Kumar',
         types: 'resedential',
-        imgthumbnail:'images/projects/Narendra-Kumar/Narendra-Kumar-thumb.png',
+        imgthumbnail:'images/projects/Narendra-Kumar/Narendra-Kumar-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -338,10 +394,22 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '11',
+        itemsid: '16',
+        names: 'Narendra sharma',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Narendra-sharma/Narendra-sharma-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Narendra-sharma/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '17',
         names: 'Prabhakar Reddy',
         types: 'resedential',
-        imgthumbnail:'images/projects/Prabhakar-Reddy/Prabhakar-Reddy-thumb.png',
+        imgthumbnail:'images/projects/Prabhakar-Reddy/Prabhakar-Reddy-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -362,10 +430,38 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '12',
+        itemsid: '18',
+        names: 'Narendra sharma',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Prakash/Prakash-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Prakash/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '19',
+        names: 'Narendra sharma',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Rakesh-Sancheti/Rakesh-Sancheti-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Rakesh-Sancheti/1.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Rakesh-Sancheti/2.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '20',
         names: 'Ramesh',
         types: 'resedential',
-        imgthumbnail:'images/projects/Ramesh/Ramesh-thumb.png',
+        imgthumbnail:'images/projects/Ramesh/Ramesh-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -530,10 +626,10 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '13',
+        itemsid: '21',
         names: 'Ramesh Hebbal',
         types: 'resedential',
-        imgthumbnail:'images/projects/Ramesh-Hebbal/Ramesh-Hebbal-thumb.png',
+        imgthumbnail:'images/projects/Ramesh-Hebbal/Ramesh-Hebbal-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -546,10 +642,38 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '14',
+        itemsid: '22',
+        names: 'Ram reddy',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Ram-reddy-Residence/Ram-reddy-Residence-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Ram-reddy-Residence/1.JPEG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Ram-reddy-Residence/2.JPEG',
+            },
+        ]
+    },
+    {
+        itemsid: '23',
+        names: 'Sandeep',
+        types: 'commercial',
+        imgthumbnail:'images/projects/Sandeep/Sandeep-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Sandeep/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '24',
         names: 'Shantilal',
         types: 'resedential',
-        imgthumbnail:'images/projects/Shantilal/Shantilal-thumb.png',
+        imgthumbnail:'images/projects/Shantilal/Shantilal-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -570,10 +694,42 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '15',
+        itemsid: '25',
+        names: 'Shatayu',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Shatayu/Shatayu-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Shatayu/1.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Shatayu/2.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Shatayu/3.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Shatayu/4.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Shatayu/5.JPG',
+            },
+            {
+                type: 'video',
+                path:'images/projects/Shatayu/6.mp4',
+            },
+        ]
+    },
+    {
+        itemsid: '26',
         names: 'Srinivas',
         types: 'resedential',
-        imgthumbnail:'images/projects/Srinivas/Srinivas-thumb.png',
+        imgthumbnail:'images/projects/Srinivas/Srinivas-thumb.PNG',
         sliderImg:[
             {
                 type: 'image',
@@ -594,10 +750,22 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '16',
+        itemsid: '27',
+        names: 'Srinivas 2',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Srinivas2/Srinivas-2-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Srinivas2/1.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '28',
         names: 'Suresh',
         types: 'commercial',
-        imgthumbnail:'images/projects/Suresh/Suresh-thumb.png',
+        imgthumbnail:'images/projects/Suresh/Suresh-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
@@ -614,14 +782,34 @@ $(document).ready(function(){
         ]
     },
     {
-        itemsid: '17',
-        names: 'Yeshwanthpur',
-        types: 'resedential',
-        imgthumbnail:'images/projects/Yeshwanthpur/Yeshwanthpur-thumb.png',
+        itemsid: '29',
+        names: 'Terrace Garden',
+        types: 'commercial',
+        imgthumbnail:'images/projects/Terrace-Garden/Terrace-Garden-thumb.JPG',
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Yeshwanthpur/1.JPG',
+                path:'images/projects/Terrace-Garden/1.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Terrace-Garden/2.JPG',
+            },
+            {
+                type: 'image',
+                path:'images/projects/Terrace-Garden/3.JPG',
+            },
+        ]
+    },
+    {
+        itemsid: '30',
+        names: 'Thammi Reddy',
+        types: 'resedential',
+        imgthumbnail:'images/projects/Thammi-Reddy/Thammi-Reddy-thumb.JPG',
+        sliderImg:[
+            {
+                type: 'image',
+                path:'images/projects/Thammi-Reddy/1.JPG',
             },
         ]
             
