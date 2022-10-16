@@ -9,7 +9,7 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/1.jpg',
+                path:'images/projects/chandrakanth/1.JPG',
             },
             {
                 type: 'image',
@@ -17,15 +17,15 @@ $(document).ready(function(){
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/3.jpg',
+                path:'images/projects/chandrakanth/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/4.jpg',
+                path:'images/projects/chandrakanth/4.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/5.jpg',
+                path:'images/projects/chandrakanth/5.JPG',
             },
             {
                 type: 'video',
