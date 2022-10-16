@@ -216,6 +216,7 @@ a:focus {
 
 body>section {
     padding: 64px 0 98px;
+    overflow-x: hidden;
 }
 .container.container960{
     max-width: 960px;
@@ -245,35 +246,7 @@ body>section {
   width: 100%;
   float: left;
 }
-.aba-box{
-   width: 100%;
-    float: left;
-}
-.bg-vision{
-    background-color: #eefef0;
-    padding-left: 30px;
-}
-.vision-box,.mission-box{
-    width: 100%;
-    float: left;
-    padding: 32px 15px 30px;
-     min-height: 250px;
-}
 
-.bg-mission{
-    background-color: #e3f7ff;
-    padding-left: 30px;
-}
-
-.vision-box h1,.mission-box h1{
-    font-size: 32px;
-    padding-bottom: 15px; 
-    margin:0;
-}
-.vision-box p,.mission-box p{
-    line-height: 24px;
-    max-width: 386px;
-}
 .bg-grey{
     background-color: #f7f7f7;
 }
@@ -347,7 +320,12 @@ body>section {
 .navbar>.container .navbar-brand {
     margin-left: 0;
 }
-
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #EF7F1B;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #EF7F1B;
+}
 .top-bar {
   padding: 8px 0;
     background: #F7F7F7;
@@ -2854,9 +2832,12 @@ shortcodes page css
     width: 100%;
 }
 .navbar-toggle {
-    background-color: #191919;
-    border: 1px solid #191919;
-    border-color:#191919;
+    background-color: #EF7F1B;
+    border: 1px solid #EF7F1B;
+    border-color:#EF7F1B;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #EF7F1B;
 }
 ul.tickmark-list {
   list-style: none;
@@ -3744,4 +3725,16 @@ display:table;
     width: 100%;
     float: left;
     }
+    .testimonial-slider.owl-carousel .owl-item img, .testimonial-slider.owl-carousel .owl-item video {
+    height: 320px;
+}
+.testimonial-slider .single-slide {
+    padding: 0;
+}
+.owl-next {
+    right: -15px;
+}
+.portfolio-filter>li a {
+    margin-right: 0px;
+}
 }
