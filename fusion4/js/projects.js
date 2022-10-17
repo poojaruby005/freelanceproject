@@ -33,7 +33,7 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/1.jpg',
+                path:'images/projects/chandrakanth/1.JPG',
             },
             {
                 type: 'image',
@@ -41,11 +41,11 @@ $(document).ready(function(){
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/3.jpg',
+                path:'images/projects/chandrakanth/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/chandrakanth/4.jpg',
+                path:'images/projects/chandrakanth/4.JPG',
             },
             {
                 type: 'image',
@@ -61,7 +61,7 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Chinnaswamy-reddy/1.jpg',
+                path:'images/projects/Chinnaswamy-reddy/1.JPG',
             },
             {
                 type: 'image',
@@ -77,19 +77,19 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Chinni/1.jpg',
+                path:'images/projects/Chinni/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Chinni/2.jpg',
+                path:'images/projects/Chinni/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Chinni/3.jpg',
+                path:'images/projects/Chinni/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Chinni/4.jpg',
+                path:'images/projects/Chinni/4.JPG',
             },
         ]
     },
@@ -113,11 +113,11 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Gopal-Singh/1.jpg',
+                path:'images/projects/Gopal-Singh/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Gopal-Singh/2.jpg',
+                path:'images/projects/Gopal-Singh/2.JPG',
             },
         ]
     },
@@ -129,67 +129,67 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/1.jpg',
+                path:'images/projects/H-Reddy/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/2.jpg',
+                path:'images/projects/H-Reddy/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/3.jpg',
+                path:'images/projects/H-Reddy/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/4.jpg',
+                path:'images/projects/H-Reddy/4.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/5.jpg',
+                path:'images/projects/H-Reddy/5.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/6.jpg',
+                path:'images/projects/H-Reddy/6.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/7.jpg',
+                path:'images/projects/H-Reddy/7.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/8.jpg',
+                path:'images/projects/H-Reddy/8.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/9.jpg',
+                path:'images/projects/H-Reddy/9.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/10.jpg'
+                path:'images/projects/H-Reddy/10.JPG'
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/11.jpg',
+                path:'images/projects/H-Reddy/11.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/12.jpg',
+                path:'images/projects/H-Reddy/12.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/13.jpg',
+                path:'images/projects/H-Reddy/13.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/14.jpg',
+                path:'images/projects/H-Reddy/14.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/15.jpg',
+                path:'images/projects/H-Reddy/15.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/H-Reddy/16.jpg',
+                path:'images/projects/H-Reddy/16.JPG',
             },
         ]
     },
@@ -213,51 +213,51 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/1.jpg',
+                path:'images/projects/Krishna-Murthy/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/2.jpg',
+                path:'images/projects/Krishna-Murthy/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/3.jpg',
+                path:'images/projects/Krishna-Murthy/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/4.jpg',
+                path:'images/projects/Krishna-Murthy/4.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/5.jpg',
+                path:'images/projects/Krishna-Murthy/5.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/6.jpg',
+                path:'images/projects/Krishna-Murthy/6.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/7.jpg',
+                path:'images/projects/Krishna-Murthy/7.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/8.jpg',
+                path:'images/projects/Krishna-Murthy/8.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/9.jpg',
+                path:'images/projects/Krishna-Murthy/9.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/10.jpg',
+                path:'images/projects/Krishna-Murthy/10.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/11.jpg',
+                path:'images/projects/Krishna-Murthy/11.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Murthy/12.jpg',
+                path:'images/projects/Krishna-Murthy/12.JPG',
             },
         ]
     },
@@ -269,15 +269,15 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Krishna-Reddy/1.jpg',
+                path:'images/projects/Krishna-Reddy/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Reddy/2.jpg',
+                path:'images/projects/Krishna-Reddy/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Krishna-Reddy/3.jpg',
+                path:'images/projects/Krishna-Reddy/3.JPG',
             },
         ]
     },
@@ -313,19 +313,19 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Manju-Mansion/1.jpg',
+                path:'images/projects/Manju-Mansion/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Manju-Mansion/2.jpg',
+                path:'images/projects/Manju-Mansion/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Manju-Mansion/3.jpg',
+                path:'images/projects/Manju-Mansion/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Manju-Mansion/4.jpg',
+                path:'images/projects/Manju-Mansion/4.JPG',
             },
         ]
     },
@@ -337,19 +337,19 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Mohankumar-Nagar/1.jpg',
+                path:'images/projects/Mohankumar-Nagar/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Mohankumar-Nagar/2.jpg',
+                path:'images/projects/Mohankumar-Nagar/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Mohankumar-Nagar/3.jpg',
+                path:'images/projects/Mohankumar-Nagar/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Mohankumar-Nagar/4.jpg',
+                path:'images/projects/Mohankumar-Nagar/4.JPG',
             },
         ]
     },
@@ -361,35 +361,35 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/1.jpg',
+                path:'images/projects/Narendra-Kumar/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/2.jpg',
+                path:'images/projects/Narendra-Kumar/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/3.jpg',
+                path:'images/projects/Narendra-Kumar/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/4.jpg',
+                path:'images/projects/Narendra-Kumar/4.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/5.jpg',
+                path:'images/projects/Narendra-Kumar/5.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/6.jpg',
+                path:'images/projects/Narendra-Kumar/6.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/7.jpg',
+                path:'images/projects/Narendra-Kumar/7.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Narendra-Kumar/8.jpg',
+                path:'images/projects/Narendra-Kumar/8.JPG',
             },
         ]
     },
@@ -413,15 +413,15 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Prabhakar-Reddy/1.jpg',
+                path:'images/projects/Prabhakar-Reddy/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Prabhakar-Reddy/2.jpg',
+                path:'images/projects/Prabhakar-Reddy/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Prabhakar-Reddy/3.jpg',
+                path:'images/projects/Prabhakar-Reddy/3.JPG',
             },
             {
                 type: 'image',
@@ -465,163 +465,163 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Ramesh/1.jpg',
+                path:'images/projects/Ramesh/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/2.jpg',
+                path:'images/projects/Ramesh/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/3.jpg',
+                path:'images/projects/Ramesh/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/4.jpg',
+                path:'images/projects/Ramesh/4.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/5.jpg',
+                path:'images/projects/Ramesh/5.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/6.jpg',
+                path:'images/projects/Ramesh/6.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/7.jpg',
+                path:'images/projects/Ramesh/7.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/8.jpg',
+                path:'images/projects/Ramesh/8.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/9.jpg',
+                path:'images/projects/Ramesh/9.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/10.jpg',
+                path:'images/projects/Ramesh/10.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/11.jpg',
+                path:'images/projects/Ramesh/11.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/12.jpg',
+                path:'images/projects/Ramesh/12.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/13.jpg',
+                path:'images/projects/Ramesh/13.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/14.jpg',
+                path:'images/projects/Ramesh/14.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/15.jpg',
+                path:'images/projects/Ramesh/15.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/16.jpg',
+                path:'images/projects/Ramesh/16.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/17.jpg',
+                path:'images/projects/Ramesh/17.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/18.jpg',
+                path:'images/projects/Ramesh/18.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/19.jpg',
+                path:'images/projects/Ramesh/19.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/20.jpg',
+                path:'images/projects/Ramesh/20.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/21.jpg',
+                path:'images/projects/Ramesh/21.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/22.jpg',
+                path:'images/projects/Ramesh/22.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/23.jpg',
+                path:'images/projects/Ramesh/23.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/24.jpg',
+                path:'images/projects/Ramesh/24.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/25.jpg',
+                path:'images/projects/Ramesh/25.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/26.jpg',
+                path:'images/projects/Ramesh/26.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/27.jpg',
+                path:'images/projects/Ramesh/27.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/28.jpg',
+                path:'images/projects/Ramesh/28.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/29.jpg',
+                path:'images/projects/Ramesh/29.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/30.jpg',
+                path:'images/projects/Ramesh/30.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/31.jpg'
+                path:'images/projects/Ramesh/31.JPG'
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/32.jpg',
+                path:'images/projects/Ramesh/32.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/33.jpg',
+                path:'images/projects/Ramesh/33.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/34.jpg',
+                path:'images/projects/Ramesh/34.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/35.jpg',
+                path:'images/projects/Ramesh/35.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/36.jpg',
+                path:'images/projects/Ramesh/36.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/37.jpg',
+                path:'images/projects/Ramesh/37.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/38.jpg',
+                path:'images/projects/Ramesh/38.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/39.jpg',
+                path:'images/projects/Ramesh/39.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh/40.jpg',
+                path:'images/projects/Ramesh/40.JPG',
             },
         ]
     },
@@ -633,11 +633,11 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Ramesh-Hebbal/1.jpg',
+                path:'images/projects/Ramesh-Hebbal/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Ramesh-Hebbal/2.jpg',
+                path:'images/projects/Ramesh-Hebbal/2.JPG',
             },
         ]
     },
@@ -649,11 +649,11 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Ram-reddy-Residence/1.JPEG',
+                path:'images/projects/Ram-reddy-Residence/1.jpg',
             },
             {
                 type: 'image',
-                path:'images/projects/Ram-reddy-Residence/2.JPEG',
+                path:'images/projects/Ram-reddy-Residence/2.jpg',
             },
         ]
     },
@@ -677,19 +677,19 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Shantilal/1.jpg',
+                path:'images/projects/Shantilal/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Shantilal/2.jpg',
+                path:'images/projects/Shantilal/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Shantilal/3.jpg',
+                path:'images/projects/Shantilal/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Shantilal/4.jpg',
+                path:'images/projects/Shantilal/4.JPG',
             },
         ]
     },
@@ -733,19 +733,19 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Srinivas/1.jpg',
+                path:'images/projects/Srinivas/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Srinivas/2.jpg',
+                path:'images/projects/Srinivas/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Srinivas/3.jpg',
+                path:'images/projects/Srinivas/3.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Srinivas/4.jpg',
+                path:'images/projects/Srinivas/4.JPG',
             },
         ]
     },
@@ -769,15 +769,15 @@ $(document).ready(function(){
         sliderImg:[
             {
                 type: 'image',
-                path:'images/projects/Suresh/1.jpg',
+                path:'images/projects/Suresh/1.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Suresh/2.jpg',
+                path:'images/projects/Suresh/2.JPG',
             },
             {
                 type: 'image',
-                path:'images/projects/Suresh/3.jpg',
+                path:'images/projects/Suresh/3.JPG',
             },
         ]
     },
@@ -821,6 +821,7 @@ $(document).ready(function(){
         for (var i = 0; i < projectItems.length; i++) {
             // console.log('Entered');
             $('.portfolio-items').append('<a href="javascripts:;" data-id="'+projectItems[i].itemsid+'" class="portfolio-item col-xs-12 col-sm-3 single-work '+ projectItems[i].types+'"><div class="recent-work-wrap"><img class="img-responsive" src="'+ projectItems[i].imgthumbnail+'" alt="" /><p>'+ projectItems[i].names+'</p><label>'+ projectItems[i].types+'</label></div></a>');   
+        
         }
         
 
