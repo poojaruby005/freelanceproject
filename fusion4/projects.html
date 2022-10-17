@@ -117,7 +117,7 @@
         </header>
         <!--/header-->
 
-        <div class="page-title" style="background-image: url(images/projects/portfolioBanner.png)">
+        <div class="page-title" style="background-image: url(images/projects/portfolioBanner.jpg)">
             <div class="container container960">
                 <div class="row">
                     <div class="col-sm-12">
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <section id="portfolio" class="pb0">
+        <section id="portfolio">
             <div class="container container960">
                 <div class="row">
                     <div class="col-sm-12">
@@ -152,7 +152,7 @@
         </section>
         <!--/#portfolio-item-->
 
-        <section id="partner" class="mt-15">
+        <section id="partner" class="border-top">
             <div class="container container960">
                 <div class="row">
                     <div class="col-sm-12">
@@ -374,6 +374,7 @@
                 const queryString = window.location.search;
                 const urlParams = new URLSearchParams(queryString);
                 const page = urlParams.get('page');
+
                 if(page == 'ongoing') {
                     setTimeout(function () {
                         $('.btn-ongoing').click();
